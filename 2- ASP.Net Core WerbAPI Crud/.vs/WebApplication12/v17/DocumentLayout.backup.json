@@ -1,0 +1,38 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\WebApplication12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C085CB72-1CF1-4F61-8D49-F4AC3B2312A4}|WebApplication12\\WebApplication12.csproj|c:\\users\\user\\desktop\\asp.net core web api\\webapplication12\\webapplication12\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C085CB72-1CF1-4F61-8D49-F4AC3B2312A4}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\WebApplication12\\WebApplication12\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "WebApplication12\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\WebApplication12\\WebApplication12\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "WebApplication12\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwDUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T14:40:00.887Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
