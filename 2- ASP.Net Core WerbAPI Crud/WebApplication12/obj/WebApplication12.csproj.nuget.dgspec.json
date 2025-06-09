@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\WebApplication12\\WebApplication12\\WebApplication12.csproj": {}
+    "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\2- ASP.Net Core WerbAPI Crud\\WebApplication12\\WebApplication12.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\WebApplication12\\WebApplication12\\WebApplication12.csproj": {
+    "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\2- ASP.Net Core WerbAPI Crud\\WebApplication12\\WebApplication12.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\WebApplication12\\WebApplication12\\WebApplication12.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\2- ASP.Net Core WerbAPI Crud\\WebApplication12\\WebApplication12.csproj",
         "projectName": "WebApplication12",
-        "projectPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\WebApplication12\\WebApplication12\\WebApplication12.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\2- ASP.Net Core WerbAPI Crud\\WebApplication12\\WebApplication12.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\WebApplication12\\WebApplication12\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\2- ASP.Net Core WerbAPI Crud\\WebApplication12\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

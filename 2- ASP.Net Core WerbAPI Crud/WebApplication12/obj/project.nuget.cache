@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VbaXc/s2a7g=",
+  "dgSpecHash": "lz5HZYPxKEQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\WebApplication12\\WebApplication12\\WebApplication12.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\2- ASP.Net Core WerbAPI Crud\\WebApplication12\\WebApplication12.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
