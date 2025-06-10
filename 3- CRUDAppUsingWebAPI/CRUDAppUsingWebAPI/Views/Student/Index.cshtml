@@ -3,7 +3,12 @@
 @{
     ViewData["Title"] = "Index";
 }
-
+@{
+    if (TempData["AddMessage"]!=null)
+    {
+        <p class="text-success">Record added successfully</p>
+    }
+}
 <h1>Index</h1>
 
 <p>

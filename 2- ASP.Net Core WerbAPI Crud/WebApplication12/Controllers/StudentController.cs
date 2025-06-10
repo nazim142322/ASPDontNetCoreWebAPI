@@ -72,7 +72,6 @@ namespace WebApplication12.Controllers
             _dbContext.Entry(std).State = EntityState.Modified;
             await _dbContext.SaveChangesAsync();
             return Ok(std); // For simplicity, returning Ok instead of CreatedAtAction
-
         }
 
         [HttpDelete("{Id}")]

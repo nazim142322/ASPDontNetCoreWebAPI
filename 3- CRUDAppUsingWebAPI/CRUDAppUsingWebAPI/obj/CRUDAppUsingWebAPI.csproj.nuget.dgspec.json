@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj": {}
+    "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj": {
+    "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj",
         "projectName": "CRUDAppUsingWebAPI",
-        "projectPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

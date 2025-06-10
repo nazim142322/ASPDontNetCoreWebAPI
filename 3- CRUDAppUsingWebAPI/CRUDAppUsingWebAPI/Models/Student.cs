@@ -13,6 +13,7 @@ namespace CRUDAppUsingWebAPI.Models
         public string studnetName { get; set; }
 
         [Required]
+        [RegularExpression("^[a-zA-Z]+$", ErrorMessage = "Only letters are allowed in gender.")]
         public string studentGender { get; set; }
 
         [Range(1, 100, ErrorMessage = "Age must be between 1 and 100")]
