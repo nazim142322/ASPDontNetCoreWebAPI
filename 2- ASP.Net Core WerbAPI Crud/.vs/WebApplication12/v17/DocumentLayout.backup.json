@@ -26,9 +26,9 @@
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\2- ASP.Net Core WerbAPI Crud\\WebApplication12\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "WebApplication12\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\2- ASP.Net Core WerbAPI Crud\\WebApplication12\\Controllers\\StudentController.cs*",
-              "RelativeToolTip": "WebApplication12\\Controllers\\StudentController.cs*",
-              "ViewState": "AgIAADQAAAAAAAAAAAAcwEAAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\2- ASP.Net Core WerbAPI Crud\\WebApplication12\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "WebApplication12\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwBoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T14:40:00.887Z",
               "IsPinned": true,
@@ -44,7 +44,8 @@
               "RelativeToolTip": "WebApplication12\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T16:04:36.119Z"
+              "WhenOpened": "2025-06-08T16:04:36.119Z",
+              "EditorCaption": ""
             }
           ]
         }

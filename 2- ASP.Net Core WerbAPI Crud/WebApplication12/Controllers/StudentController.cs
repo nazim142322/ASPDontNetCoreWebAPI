@@ -19,7 +19,7 @@ namespace WebApplication12.Controllers
         public async Task<IActionResult> GetAllStudents()
         {
             var data = await _dbContext.Students.ToListAsync();
-            return Ok(data);//convert list to JSON
+            return Ok(data);//return status 200
         }
 
         [HttpGet("{Id}")]
@@ -28,7 +28,7 @@ namespace WebApplication12.Controllers
             var student = await _dbContext.Students.FindAsync(Id);
             if (student == null)
             {
-                return NotFound();
+                return NotFound();//return status 404 - not found
             }
             return Ok(student);
         }
@@ -38,7 +38,11 @@ namespace WebApplication12.Controllers
         {
             if (student == null)
             {
-                return BadRequest("Student data is null");
+                return BadRequest();//return 400 
+            }
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); // Input galat ho to
             }
             await _dbContext.Students.AddAsync(student);
             await _dbContext.SaveChangesAsync();
@@ -91,3 +95,4 @@ namespace WebApplication12.Controllers
 
     //Entity Framework ko ye batata hai ki object std ek pehle se existing record hai, aur ab change ho gaya hai, isliye isse update karo using its Id.
 }   // return Ok(...) pass object and string
+    //[FromBody] ek attribute hai ASP.NET Core me, jo batata hai ki HTTP request body se data bind karna hai model se. if mismatch, return 400 Bad Request
