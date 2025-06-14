@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DACAE1ED-309C-4C9F-87F9-D16335834902}|CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\3- crudappusingwebapi\\crudappusingwebapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DACAE1ED-309C-4C9F-87F9-D16335834902}|CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj|solutionrelative:crudappusingwebapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DACAE1ED-309C-4C9F-87F9-D16335834902}|CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\3- crudappusingwebapi\\crudappusingwebapi\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DACAE1ED-309C-4C9F-87F9-D16335834902}|CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj|solutionrelative:crudappusingwebapi\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DACAE1ED-309C-4C9F-87F9-D16335834902}|CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\3- crudappusingwebapi\\crudappusingwebapi\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DACAE1ED-309C-4C9F-87F9-D16335834902}|CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj|solutionrelative:crudappusingwebapi\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DACAE1ED-309C-4C9F-87F9-D16335834902}|CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\3- crudappusingwebapi\\crudappusingwebapi\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DACAE1ED-309C-4C9F-87F9-D16335834902}|CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj|solutionrelative:crudappusingwebapi\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUDAppUsingWebAPI\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "CRUDAppUsingWebAPI\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T16:08:10.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDAppUsingWebAPI\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "CRUDAppUsingWebAPI\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T17:07:41.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "CRUDAppUsingWebAPI\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "CRUDAppUsingWebAPI\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAswGIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T16:39:07.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\Views\\Student\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUDAppUsingWebAPI\\Views\\Student\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI\\Views\\Student\\Delete.cshtml",
+              "RelativeToolTip": "CRUDAppUsingWebAPI\\Views\\Student\\Delete.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwDMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-14T14:01:04.893Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+﻿@model IEnumerable<CRUDAppUsingWebAPI.Models.Student>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@{
+    if (TempData["AddMessage"]!=null)
+    {
+        <p class="text-success">Record added successfully</p>
+    }
+    if(TempData["UpdateMessage"]!=null)
+    {
+        <p class="text-success">@TempData["UpdateMessage"]</p>
+    }
+    if (TempData["DeleteMessage"]!=null)
+    {
+        <p class="text-success">Record deleted successfully</p>
+    }
+}
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.studnetName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.studentGender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.standard)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fatherName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.studnetName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.studentGender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.standard)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fatherName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+                @Html.ActionLink("Details", "Detail", new {id=item.id }) |
+                @Html.ActionLink("Delete", "Delete", new {id=item.id})
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<!-- Pagination simple -->
+@*   <nav>
+      <ul class="pagination  justify-content-end">
+          @for (int i = 1; i <= ViewBag.TotalPages; i++)
+          {
+              <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                  <a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+              </li>
+          }
+      </ul>
+  </nav> *@
+
+<!-- Pagination with first Prev Next Last -->
+<nav>
+    <ul class="pagination justify-content-end" style="font-size:12px;">
+
+        <!-- First Page -->
+        <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+            <a class="page-link" asp-action="Index" asp-route-page="1">First</a>
+        </li>
+
+        <!-- Previous Page -->
+        <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+            <a class="page-link" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage - 1)">Prev</a>
+        </li>
+
+        <!-- Page Numbers -->
+        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+        {
+            <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                <a class="page-link" asp-action="Index" asp-route-page="@i">@i</a>
+            </li>
+        }
+
+        <!-- Next Page -->
+        <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+            <a class="page-link" asp-action="Index" asp-route-page="@(ViewBag.CurrentPage + 1)">Next</a>
+        </li>
+
+        <!-- Last Page -->
+        <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+            <a class="page-link" asp-action="Index" asp-route-page="@ViewBag.TotalPages">Last</a>
+        </li>
+    </ul>
+</nav>
