@@ -21,19 +21,25 @@
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                      @*   </li>
+                      @*</li>
                            <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li> *@
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Student" asp-action="Index">Students</a>
-                        </li>
+                       @*  pagination *@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Student" asp-action="Create"> Add Student</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Student" asp-action="Index">Students with pagination</a>
+                        </li>                 
                     @*      for search fun *@
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Student2" asp-action="Index">Students</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Student2" asp-action="Index">Students with search</a>
+                        </li>
+
+                            @*for search fun and sorting *@
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Student3" asp-action="Index">Students with search and sorting</a>
                         </li>
                     </ul>
                 </div>

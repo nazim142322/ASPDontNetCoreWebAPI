@@ -17,63 +17,67 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CRUDAppUsingWebAPI
 build_property.RootNamespace = CRUDAppUsingWebAPI
-build_property.ProjectDir = C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async\CRUDAppUsingWebAPI\
+build_property.ProjectDir = C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async\CRUDAppUsingWebAPI
+build_property.MSBuildProjectDirectory = C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async/CRUDAppUsingWebAPI/Views/Home/Index.cshtml]
+[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async pagination and searching/CRUDAppUsingWebAPI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async/CRUDAppUsingWebAPI/Views/Home/Privacy.cshtml]
+[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async pagination and searching/CRUDAppUsingWebAPI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async/CRUDAppUsingWebAPI/Views/Shared/Error.cshtml]
+[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async pagination and searching/CRUDAppUsingWebAPI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async/CRUDAppUsingWebAPI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async pagination and searching/CRUDAppUsingWebAPI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async/CRUDAppUsingWebAPI/Views/Student2/Index.cshtml]
+[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async pagination and searching/CRUDAppUsingWebAPI/Views/Student2/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudDJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async/CRUDAppUsingWebAPI/Views/Student/Create.cshtml]
+[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async pagination and searching/CRUDAppUsingWebAPI/Views/Student3/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudDNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async pagination and searching/CRUDAppUsingWebAPI/Views/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async/CRUDAppUsingWebAPI/Views/Student/Delete.cshtml]
+[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async pagination and searching/CRUDAppUsingWebAPI/Views/Student/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async/CRUDAppUsingWebAPI/Views/Student/Detail.cshtml]
+[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async pagination and searching/CRUDAppUsingWebAPI/Views/Student/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async/CRUDAppUsingWebAPI/Views/Student/Edit.cshtml]
+[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async pagination and searching/CRUDAppUsingWebAPI/Views/Student/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async/CRUDAppUsingWebAPI/Views/Student/Index.cshtml]
+[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async pagination and searching/CRUDAppUsingWebAPI/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async/CRUDAppUsingWebAPI/Views/_ViewImports.cshtml]
+[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async pagination and searching/CRUDAppUsingWebAPI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async/CRUDAppUsingWebAPI/Views/_ViewStart.cshtml]
+[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async pagination and searching/CRUDAppUsingWebAPI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async/CRUDAppUsingWebAPI/Views/Shared/_Layout.cshtml]
+[C:/Users/user/Desktop/ASP.Net Core Web API/3- CRUDAppUsingWebAPI-async pagination and searching/CRUDAppUsingWebAPI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bdz2eujwvm

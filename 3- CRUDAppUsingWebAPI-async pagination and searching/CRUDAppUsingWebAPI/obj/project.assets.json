@@ -5572,11 +5572,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI-async\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI-async pagination and searching\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj",
       "projectName": "CRUDAppUsingWebAPI",
-      "projectPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI-async\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI-async pagination and searching\\CRUDAppUsingWebAPI\\CRUDAppUsingWebAPI.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI-async\\CRUDAppUsingWebAPI\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\3- CRUDAppUsingWebAPI-async pagination and searching\\CRUDAppUsingWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
