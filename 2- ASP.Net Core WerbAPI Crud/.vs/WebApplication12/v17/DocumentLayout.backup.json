@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\2- ASP.Net Core WerbAPI Crud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C085CB72-1CF1-4F61-8D49-F4AC3B2312A4}|WebApplication12\\WebApplication12.csproj|c:\\users\\user\\desktop\\asp.net core web api\\2- asp.net core werbapi crud\\webapplication12\\webapplication12.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C085CB72-1CF1-4F61-8D49-F4AC3B2312A4}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\webapplication12.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C085CB72-1CF1-4F61-8D49-F4AC3B2312A4}|WebApplication12\\WebApplication12.csproj|c:\\users\\user\\desktop\\asp.net core web api\\2- asp.net core werbapi crud\\webapplication12\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C085CB72-1CF1-4F61-8D49-F4AC3B2312A4}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C085CB72-1CF1-4F61-8D49-F4AC3B2312A4}|WebApplication12\\WebApplication12.csproj|c:\\users\\user\\desktop\\asp.net core web api\\2- asp.net core werbapi crud\\webapplication12\\webapplication12.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C085CB72-1CF1-4F61-8D49-F4AC3B2312A4}|WebApplication12\\WebApplication12.csproj|solutionrelative:webapplication12\\webapplication12.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C085CB72-1CF1-4F61-8D49-F4AC3B2312A4}|WebApplication12\\WebApplication12.csproj|c:\\users\\user\\desktop\\asp.net core web api\\2- asp.net core werbapi crud\\webapplication12\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\2- ASP.Net Core WerbAPI Crud\\WebApplication12\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "WebApplication12\\Controllers\\StudentController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\2- ASP.Net Core WerbAPI Crud\\WebApplication12\\Controllers\\StudentController.cs",
               "RelativeToolTip": "WebApplication12\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAwwFEAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T14:40:00.887Z",
               "IsPinned": true,
@@ -40,16 +40,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WebApplication12",
+              "DocumentIndex": 1,
+              "Title": "WebApplication12.csproj",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\2- ASP.Net Core WerbAPI Crud\\WebApplication12\\WebApplication12.csproj",
               "RelativeDocumentMoniker": "WebApplication12\\WebApplication12.csproj",
               "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\2- ASP.Net Core WerbAPI Crud\\WebApplication12\\WebApplication12.csproj",
               "RelativeToolTip": "WebApplication12\\WebApplication12.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-15T16:28:30.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-15T16:28:30.36Z"
             },
             {
               "$type": "Document",
