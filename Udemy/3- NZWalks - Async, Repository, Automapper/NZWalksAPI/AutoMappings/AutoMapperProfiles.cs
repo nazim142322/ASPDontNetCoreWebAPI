@@ -20,6 +20,10 @@ namespace NZWalksAPI.AutoMappings
 
             CreateMap<Walk, WalkDTO>().ReverseMap(); // source to destination and vice versa
 
+            CreateMap<Difficulty, DifficultyDTO>().ReverseMap();// source to destination and vice versa
+
+            CreateMap<Walk, UpdateWalkRequestDTO>().ReverseMap();
+
         }
     }   
 }

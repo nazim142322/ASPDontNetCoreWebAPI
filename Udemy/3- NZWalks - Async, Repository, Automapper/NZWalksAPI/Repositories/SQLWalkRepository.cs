@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NZWalksAPI.Data;
 using NZWalksAPI.Models.Domain;
+using NZWalksAPI.Models.DTO;
 using System.Reflection.Metadata.Ecma335;
 
 namespace NZWalksAPI.Repositories
@@ -17,14 +18,45 @@ namespace NZWalksAPI.Repositories
         {
             await _dbContext.Walks.AddAsync(walk);
             await _dbContext.SaveChangesAsync();
-            return (walk);
+            return (walk);//returning with id
         }
            
         public async Task<IEnumerable<Walk>> GetAllWalksAsync()
-        {       
-                var walks = await _dbContext.Walks.ToListAsync();
-                return walks;    
-           
+        {                   
+            //var walks = await _dbContext.Walks
+                //.Include(w => w.Region) // Include the Region navigation property
+                //.Include(w => w.Difficulty) // Include the Difficulty navigation property
+                //.ToListAsync();
+            //return walks;
+            var walks2 = await _dbContext.Walks.Include("Region").Include("Difficulty").ToListAsync();
+            return walks2;
+        }
+
+        public Task<Walk> GetByIdAsync(Guid id)
+        {
+            var walk = _dbContext.Walks.Include(w=> w.Region) // Include the Region navigation property
+                .Include(w => w.Difficulty) // Include the Difficulty navigation property
+                .FirstOrDefaultAsync(w => w.Id == id);
+            return walk;
+        }
+
+        public async Task<Walk> UpdateAsync(Guid id, Walk walk)
+        {
+           var existingWalk = await _dbContext.Walks.FindAsync(id);
+            if (existingWalk == null)
+            {
+                return null; // Walk not found
+            }
+            // Update the properties of the existing walk                    
+            existingWalk.Name = walk.Name;
+            existingWalk.Description = walk.Description;
+            existingWalk.LengthInKm = walk.LengthInKm;
+            existingWalk.WalkImageUrl = walk.WalkImageUrl;
+            existingWalk.RegionId = walk.RegionId;
+            existingWalk.DifficultyId = walk.DifficultyId;
+            await _dbContext.SaveChangesAsync();
+
+            return existingWalk; // Return the updated walk
         }
     }
 }

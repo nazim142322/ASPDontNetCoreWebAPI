@@ -71,10 +71,55 @@ namespace NZWalksAPI.Controllers
                 //Map Domain Models to DTOs using AutoMapper
                 var walkDTOs = _mapper.Map<IEnumerable<WalkDTO>>(walksDomainModel);
                 //Return the list of WalkDTOs
-                return Ok(walkDTOs);
+                return Ok(walkDTOs);        
+        }
+
+        [HttpGet("{id:Guid}")]
+        public async Task<IActionResult>GetById([FromRoute]Guid id)
+        {
+            //Check if the id is valid
+            if (id == Guid.Empty)
+            {
+                return BadRequest("Invalid walk ID.");
+            }
+
+            //Get the walk by id from the database
+            var walkDomainModel = await _walkRepository.GetByIdAsync(id);
+            if(walkDomainModel == null)
+            {
+                return NotFound($"Walk with ID {id} not found.");
+            } 
             
-           
-            
+            //map the Domain Model to DTO
+            var walkDTO =  _mapper.Map<WalkDTO>(walkDomainModel);            
+            return Ok(walkDomainModel);
+        }
+
+        [HttpPut("{id:guid}")]
+        public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateWalkRequestDTO updateWalkRequestdto)
+        {
+            if (updateWalkRequestdto == null)
+            {
+                return BadRequest();
+            }
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            // map the DTO to the Domain Model
+            var walkDomainModel = _mapper.Map<Walk>(updateWalkRequestdto);
+
+            //call the repository to update the walk
+            walkDomainModel = await _walkRepository.UpdateAsync(id, walkDomainModel);
+
+            //check if the walk exists            
+            if (walkDomainModel == null)
+            {
+                return NotFound($"Walk with ID {id} not found.");
+            }
+            // map the updated Domain Model to DTO
+            var updatedWalkDTO = _mapper.Map<WalkDTO>(walkDomainModel);
+            return Ok(updatedWalkDTO);
         }
     }
 }

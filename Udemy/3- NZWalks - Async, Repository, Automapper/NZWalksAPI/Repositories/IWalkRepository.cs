@@ -1,4 +1,5 @@
 ﻿using NZWalksAPI.Models.Domain;
+using NZWalksAPI.Models.DTO;
 
 namespace NZWalksAPI.Repositories
 {
@@ -6,5 +7,7 @@ namespace NZWalksAPI.Repositories
     {
         Task<Walk> CreateAsync(Walk walk);
         Task<IEnumerable<Walk>> GetAllWalksAsync();
+        Task<Walk?> GetByIdAsync(Guid id);
+        Task<Walk?> UpdateAsync(Guid id, Walk walk);
     }
 }
