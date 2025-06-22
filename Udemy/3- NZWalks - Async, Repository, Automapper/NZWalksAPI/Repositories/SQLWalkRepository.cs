@@ -20,8 +20,8 @@ namespace NZWalksAPI.Repositories
             await _dbContext.SaveChangesAsync();
             return (walk);//returning with id
         }
-           
-        public async Task<IEnumerable<Walk>> GetAllWalksAsync()
+
+       public async Task<IEnumerable<Walk>> GetAllWalksAsync()
         {                   
             //var walks = await _dbContext.Walks
                 //.Include(w => w.Region) // Include the Region navigation property
@@ -32,7 +32,7 @@ namespace NZWalksAPI.Repositories
             return walks2;
         }
 
-        public Task<Walk> GetByIdAsync(Guid id)
+       public Task<Walk> GetByIdAsync(Guid id)
         {
             var walk = _dbContext.Walks.Include(w=> w.Region) // Include the Region navigation property
                 .Include(w => w.Difficulty) // Include the Difficulty navigation property
@@ -40,7 +40,7 @@ namespace NZWalksAPI.Repositories
             return walk;
         }
 
-        public async Task<Walk> UpdateAsync(Guid id, Walk walk)
+       public async Task<Walk> UpdateAsync(Guid id, Walk walk)
         {
            var existingWalk = await _dbContext.Walks.FindAsync(id);
             if (existingWalk == null)
@@ -55,8 +55,19 @@ namespace NZWalksAPI.Repositories
             existingWalk.RegionId = walk.RegionId;
             existingWalk.DifficultyId = walk.DifficultyId;
             await _dbContext.SaveChangesAsync();
-
             return existingWalk; // Return the updated walk
+        }
+
+        public async Task<Walk?> DeleteAsync(Guid id)
+        {
+            var exitingWalk = await _dbContext.Walks.FindAsync(id);
+            if (exitingWalk == null)
+            {
+                return null; // Walk not found
+            }
+            _dbContext.Walks.Remove(exitingWalk);
+            await _dbContext.SaveChangesAsync();
+            return exitingWalk; // Return the deleted walk
         }
     }
 }

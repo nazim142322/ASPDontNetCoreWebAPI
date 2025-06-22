@@ -83,16 +83,18 @@ namespace NZWalksAPI.Controllers
         //Post to create New Region
         //POST: https://locathost:7050/api/regions
         [HttpPost]
+        [ValidateModel]
         public async Task<IActionResult> Create([FromBody] AddRegionRequestDTO addregiondto)
         {
             if (addregiondto == null)
             {
                 return BadRequest();
             }
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }            
+            //if (!ModelState.IsValid)
+            //{
+            //    return BadRequest(ModelState);
+            //}
+            // yaha ModelState.IsValid likhne ki zarurat nahi
             var regionDomainModel = _mapper.Map<Region>(addregiondto); //destination to source
 
             //calling repository to create region
@@ -108,16 +110,18 @@ namespace NZWalksAPI.Controllers
         //update region
         //PUT: https://localhost:7050/api/regions/{id}
         [HttpPut("{id:Guid}")]
+        [ValidateModel]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateRegionRequestDTO updateRegiondto)
         {
             if (updateRegiondto == null)
             {
                 return BadRequest();
             }
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }            
+            //if (!ModelState.IsValid)
+            //{
+            //    return BadRequest(ModelState);
+            //}
+            //yaha ModelState.IsValid likhne ki zarurat nahi
 
             //Map DTO to Domain Model
             var RegionDomainModel =  _mapper.Map<Region>(updateRegiondto); //destination to source
