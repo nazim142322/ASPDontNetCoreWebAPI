@@ -8,8 +8,8 @@ namespace NZWalksAPI.Repositories
 {
     public class SQLWalkRepository : IWalkRepository
     {
-        private readonly NZWalksDbContext _dbContext;
-        public SQLWalkRepository(NZWalksDbContext dbContext)
+       private readonly NZWalksDbContext _dbContext;
+       public SQLWalkRepository(NZWalksDbContext dbContext)
         {
             _dbContext = dbContext;
         }
@@ -32,7 +32,25 @@ namespace NZWalksAPI.Repositories
             return walks2;
         }
 
-       public Task<Walk> GetByIdAsync(Guid id)
+      // This method allows filtering on specific properties of the Walks
+      public async Task<IEnumerable<Walk>> GetWalksByFilterAsync( string? filterOn=null, string? filterQuery=null)
+        {     
+            var walks = _dbContext.Walks.Include("Region").Include("Difficulty").AsQueryable();
+            if(string.IsNullOrWhiteSpace(filterOn)==false && string.IsNullOrEmpty(filterQuery))
+            {
+                if(filterOn.Equals("Name", StringComparison.OrdinalIgnoreCase))
+                {
+                    walks = walks.Where(w => w.Name.Contains(filterQuery));
+                }
+                
+            }
+            var result =  await walks.ToListAsync();
+            return result;
+
+
+        }
+
+        public Task<Walk> GetByIdAsync(Guid id)
         {
             var walk = _dbContext.Walks.Include(w=> w.Region) // Include the Region navigation property
                 .Include(w => w.Difficulty) // Include the Difficulty navigation property

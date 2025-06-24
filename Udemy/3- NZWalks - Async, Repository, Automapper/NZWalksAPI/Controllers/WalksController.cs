@@ -57,11 +57,34 @@ namespace NZWalksAPI.Controllers
 
         }
 
+        //Get Walks
+        //Get: /api/Walks
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
             //Get all walks from the database
             var walksDomainModel = await _walkRepository.GetAllWalksAsync();
+
+            //Check if any walks were found
+            if (walksDomainModel == null || !walksDomainModel.Any())
+            {
+                return NotFound("No walks found.");
+            }
+
+            //Map Domain Models to DTOs using AutoMapper
+            var walkDTOs = _mapper.Map<IEnumerable<WalkDTO>>(walksDomainModel);
+            //Return the list of WalkDTOs
+            return Ok(walkDTOs);
+        }
+
+
+        //Get Walks
+        //Get:/api/walks?filterOn=Name&filterQuery=Track
+        [HttpGet("Filttering")]
+        public async Task<IActionResult> GetAllbyFilter([FromQuery] string? filterOn, [FromQuery] string? filterQuery)
+        {
+            //Get all walks from the database
+            var walksDomainModel = await _walkRepository.GetWalksByFilterAsync(filterOn, filterQuery);
 
             //Check if any walks were found
             if (walksDomainModel == null || !walksDomainModel.Any())

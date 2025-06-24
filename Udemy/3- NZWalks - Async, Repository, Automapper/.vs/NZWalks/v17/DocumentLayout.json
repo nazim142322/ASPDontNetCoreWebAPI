@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\3- nzwalks - async, repository, automapper\\nzwalksapi\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|solutionrelative:nzwalksapi\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\3- nzwalks - async, repository, automapper\\nzwalksapi\\repositories\\sqlwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|solutionrelative:nzwalksapi\\repositories\\sqlwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\3- nzwalks - async, repository, automapper\\nzwalksapi\\repositories\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|solutionrelative:nzwalksapi\\repositories\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\3- nzwalks - async, repository, automapper\\nzwalksapi\\repositories\\sqlwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|solutionrelative:nzwalksapi\\repositories\\sqlwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\3- nzwalks - async, repository, automapper\\nzwalksapi\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|solutionrelative:nzwalksapi\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\3- nzwalks - async, repository, automapper\\nzwalksapi\\models\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|solutionrelative:nzwalksapi\\models\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\3- nzwalks - async, repository, automapper\\nzwalksapi\\models\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|solutionrelative:nzwalksapi\\models\\domain\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\3- nzwalks - async, repository, automapper\\nzwalksapi\\models\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|solutionrelative:nzwalksapi\\models\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\3- nzwalks - async, repository, automapper\\nzwalksapi\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|solutionrelative:nzwalksapi\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\3- nzwalks - async, repository, automapper\\nzwalksapi\\customactionfilters\\validatemodeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,14 +55,6 @@
       "RelativeMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|solutionrelative:nzwalksapi\\models\\dto\\addregionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\3- nzwalks - async, repository, automapper\\nzwalksapi\\models\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|solutionrelative:nzwalksapi\\models\\domain\\walk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\3- nzwalks - async, repository, automapper\\nzwalksapi\\models\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|solutionrelative:nzwalksapi\\models\\domain\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\3- nzwalks - async, repository, automapper\\nzwalksapi\\repositories\\iregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD3619D3-8A3A-4DE8-8D76-AE2F56FC785F}|NZWalksAPI\\NZWalksAPI.csproj|solutionrelative:nzwalksapi\\repositories\\iregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -62,11 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Difficulty.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Models\\Domain\\Difficulty.cs",
+              "RelativeDocumentMoniker": "NZWalksAPI\\Models\\Domain\\Difficulty.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Models\\Domain\\Difficulty.cs",
+              "RelativeToolTip": "NZWalksAPI\\Models\\Domain\\Difficulty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:51:44.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ValidateModeAttribute.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\CustomActionFilters\\ValidateModeAttribute.cs",
               "RelativeDocumentMoniker": "NZWalksAPI\\CustomActionFilters\\ValidateModeAttribute.cs",
@@ -74,12 +91,11 @@
               "RelativeToolTip": "NZWalksAPI\\CustomActionFilters\\ValidateModeAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T15:45:14.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T15:45:14.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "UpdateWalkRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Models\\DTO\\UpdateWalkRequestDTO.cs",
               "RelativeDocumentMoniker": "NZWalksAPI\\Models\\DTO\\UpdateWalkRequestDTO.cs",
@@ -87,12 +103,11 @@
               "RelativeToolTip": "NZWalksAPI\\Models\\DTO\\UpdateWalkRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T07:49:22.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T07:49:22.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AddWalkRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Models\\DTO\\AddWalkRequestDTO.cs",
               "RelativeDocumentMoniker": "NZWalksAPI\\Models\\DTO\\AddWalkRequestDTO.cs",
@@ -100,12 +115,11 @@
               "RelativeToolTip": "NZWalksAPI\\Models\\DTO\\AddWalkRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T07:46:59.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T07:46:59.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "UpdateRegionRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Models\\DTO\\UpdateRegionRequestDTO.cs",
               "RelativeDocumentMoniker": "NZWalksAPI\\Models\\DTO\\UpdateRegionRequestDTO.cs",
@@ -113,12 +127,11 @@
               "RelativeToolTip": "NZWalksAPI\\Models\\DTO\\UpdateRegionRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T07:42:08.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T07:42:08.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "AddRegionRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Models\\DTO\\AddRegionRequestDTO.cs",
               "RelativeDocumentMoniker": "NZWalksAPI\\Models\\DTO\\AddRegionRequestDTO.cs",
@@ -126,12 +139,11 @@
               "RelativeToolTip": "NZWalksAPI\\Models\\DTO\\AddRegionRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T07:28:24.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T07:28:24.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "Region.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Models\\Domain\\Region.cs",
               "RelativeDocumentMoniker": "NZWalksAPI\\Models\\Domain\\Region.cs",
@@ -144,20 +156,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Walk.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Models\\Domain\\Walk.cs",
               "RelativeDocumentMoniker": "NZWalksAPI\\Models\\Domain\\Walk.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Models\\Domain\\Walk.cs",
               "RelativeToolTip": "NZWalksAPI\\Models\\Domain\\Walk.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T06:56:47.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IRegionRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Repositories\\IRegionRepository.cs",
               "RelativeDocumentMoniker": "NZWalksAPI\\Repositories\\IRegionRepository.cs",
@@ -165,12 +177,11 @@
               "RelativeToolTip": "NZWalksAPI\\Repositories\\IRegionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T16:13:37.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T16:13:37.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "SQLRegionRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Repositories\\SQLRegionRepository.cs",
               "RelativeDocumentMoniker": "NZWalksAPI\\Repositories\\SQLRegionRepository.cs",
@@ -178,18 +189,17 @@
               "RelativeToolTip": "NZWalksAPI\\Repositories\\SQLRegionRepository.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAwwCIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T16:13:53.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T16:13:53.591Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "RegionsController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Controllers\\RegionsController.cs",
               "RelativeDocumentMoniker": "NZWalksAPI\\Controllers\\RegionsController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Controllers\\RegionsController.cs",
               "RelativeToolTip": "NZWalksAPI\\Controllers\\RegionsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswFAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T16:18:31.393Z",
               "EditorCaption": ""
@@ -202,33 +212,33 @@
               "RelativeDocumentMoniker": "NZWalksAPI\\Repositories\\IWalkRepository.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Repositories\\IWalkRepository.cs",
               "RelativeToolTip": "NZWalksAPI\\Repositories\\IWalkRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T15:04:45.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SQLWalkRepository.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Repositories\\SQLWalkRepository.cs",
               "RelativeDocumentMoniker": "NZWalksAPI\\Repositories\\SQLWalkRepository.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Repositories\\SQLWalkRepository.cs",
               "RelativeToolTip": "NZWalksAPI\\Repositories\\SQLWalkRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T06:40:17.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "WalksController.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Controllers\\WalksController.cs",
               "RelativeDocumentMoniker": "NZWalksAPI\\Controllers\\WalksController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Controllers\\WalksController.cs",
               "RelativeToolTip": "NZWalksAPI\\Controllers\\WalksController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwJQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAADwv1YAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-21T15:00:46.449Z",
               "EditorCaption": ""

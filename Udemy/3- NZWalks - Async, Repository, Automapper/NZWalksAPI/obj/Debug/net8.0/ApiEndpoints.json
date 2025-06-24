@@ -168,6 +168,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NZWalksAPI.Controllers.WalksController",
+    "Method": "GetAllbyFilter",
+    "RelativePath": "api/Walks/Filttering",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filterOn",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "filterQuery",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NZWalksAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
