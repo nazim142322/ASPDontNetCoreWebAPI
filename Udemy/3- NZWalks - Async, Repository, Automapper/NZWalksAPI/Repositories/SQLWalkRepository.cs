@@ -32,22 +32,38 @@ namespace NZWalksAPI.Repositories
             return walks2;
         }
 
-      // This method allows filtering on specific properties of the Walks
-      public async Task<IEnumerable<Walk>> GetWalksByFilterAsync( string? filterOn=null, string? filterQuery=null)
+     
+       // This method allows filtering on specific properties of the Walks
+       public async Task<IEnumerable<Walk>> GetWalksByFilterAsync( string? filterOn=null, string? filterQuery=null)
         {     
             var walks = _dbContext.Walks.Include("Region").Include("Difficulty").AsQueryable();
-            if(string.IsNullOrWhiteSpace(filterOn)==false && string.IsNullOrEmpty(filterQuery))
-            {
-                if(filterOn.Equals("Name", StringComparison.OrdinalIgnoreCase))
+            if(!string.IsNullOrWhiteSpace(filterOn) && !string.IsNullOrEmpty(filterQuery))
+            {  
+                //single field search
+                //if(filterOn.Equals("Name", StringComparison.OrdinalIgnoreCase))
+                //{
+                    //walks = walks.Where(w => w.Name.Contains(filterQuery));
+                //}
+
+                //mutiple fields support
+                switch (filterOn.ToLower())
                 {
-                    walks = walks.Where(w => w.Name.Contains(filterQuery));
+                    case "name":
+                        walks = walks.Where(w => w.Name.Contains(filterQuery));
+                        break;
+                    case "description":
+                        walks = walks.Where(w => w.Description.Contains(filterQuery));
+                        break;
+                    case "region":
+                        walks = walks.Where(w => w.Region.Name.Contains(filterQuery));
+                        break;
+                    case "difficulty":
+                        walks = walks.Where(w => w.Difficulty.Name.Contains(filterQuery));
+                        break;
                 }
-                
             }
             var result =  await walks.ToListAsync();
             return result;
-
-
         }
 
         public Task<Walk> GetByIdAsync(Guid id)
