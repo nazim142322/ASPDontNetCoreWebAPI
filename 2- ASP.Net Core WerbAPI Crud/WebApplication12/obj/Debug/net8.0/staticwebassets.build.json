@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "gd8PrPYGnegv4Wa2bzFY4r20uAuJGtkfcSaF79U0/6A=",
-  "Source": "WebApplication12",
-  "BasePath": "_content/WebApplication12",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"7rSSQS3Eq3X/ASfrJ9/bUMQRM8MgUJilNNQui7+aiAg=","Source":"WebApplication12","BasePath":"_content/WebApplication12","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

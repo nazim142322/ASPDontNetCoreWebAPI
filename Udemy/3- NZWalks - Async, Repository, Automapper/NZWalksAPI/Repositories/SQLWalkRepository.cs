@@ -2,6 +2,7 @@
 using NZWalksAPI.Data;
 using NZWalksAPI.Models.Domain;
 using NZWalksAPI.Models.DTO;
+using System.Globalization;
 using System.Reflection.Metadata.Ecma335;
 
 namespace NZWalksAPI.Repositories
@@ -33,7 +34,7 @@ namespace NZWalksAPI.Repositories
         }
 
      
-       // This method allows filtering on specific properties of the Walks
+       // This method allows filtering on properties of the Walks
        public async Task<IEnumerable<Walk>> GetWalksByFilterAsync( string? filterOn=null, string? filterQuery=null)
         {     
             var walks = _dbContext.Walks.Include("Region").Include("Difficulty").AsQueryable();
@@ -63,6 +64,124 @@ namespace NZWalksAPI.Repositories
                 }
             }
             var result =  await walks.ToListAsync();
+            return result;
+        }
+
+        // filter and sorting
+        public async Task<IEnumerable<Walk>> GetWalksByFilterSortingAsync(string? filterOn = null, string? filterQuery = null, 
+            string? sortBy=null, bool isAscending = true )
+        {
+            var walks = _dbContext.Walks.Include("Region").Include("Difficulty").AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(filterOn) && !string.IsNullOrEmpty(filterQuery))
+            {
+                //single field search
+                //if(filterOn.Equals("Name", StringComparison.OrdinalIgnoreCase))
+                //{
+                //walks = walks.Where(w => w.Name.Contains(filterQuery));
+                //}
+
+                //mutiple fields support
+                switch (filterOn.ToLower())
+                {
+                    case "name":
+                        walks = walks.Where(w => w.Name.Contains(filterQuery));
+                        break;
+                    case "description":
+                        walks = walks.Where(w => w.Description.Contains(filterQuery));
+                        break;
+                    case "region":
+                        walks = walks.Where(w => w.Region.Name.Contains(filterQuery));
+                        break;
+                    case "difficulty":
+                        walks = walks.Where(w => w.Difficulty.Name.Contains(filterQuery));
+                        break;
+                }                
+            }
+            //sorting by Name length 
+            //if(!string.IsNullOrWhiteSpace(sortBy))
+            //{
+            //    if (sortBy.Equals("name", StringComparison.OrdinalIgnoreCase))
+            //    {
+            //         walks = isAscending ? walks.OrderBy(w => w.Name) : walks.OrderByDescending(w => w.Name);
+            //    }
+            //    else if (sortBy.Equals("length", StringComparison.OrdinalIgnoreCase))
+            //    {
+            //       walks = isAscending ? walks.OrderBy(w => w.LengthInKm) : walks.OrderByDescending(w => w.LengthInKm);
+            //    }                    
+            //}
+            if (!string.IsNullOrWhiteSpace(sortBy))
+            {
+                switch (sortBy.ToLower())
+                {
+                    case "name":
+                        walks = isAscending ? walks.OrderBy(w => w.Name) : walks.OrderByDescending(w => w.Name);
+                        break;
+                    case "length":
+                        walks = isAscending ? walks.OrderBy(w => w.LengthInKm) : walks.OrderByDescending(w => w.LengthInKm);
+                        break;
+                }
+            }
+            var result = await walks.ToListAsync();
+            return result;
+        }
+
+        // filter sorting and pagination
+        public async Task<IEnumerable<Walk>> GetWalksByFilterSortingPaginationAsync(string? filterOn = null, string? filterQuery = null,
+            string? sortBy = null, bool isAscending = true)
+        {
+            var walks = _dbContext.Walks.Include("Region").Include("Difficulty").AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(filterOn) && !string.IsNullOrEmpty(filterQuery))
+            {
+                //single field search
+                //if(filterOn.Equals("Name", StringComparison.OrdinalIgnoreCase))
+                //{
+                //walks = walks.Where(w => w.Name.Contains(filterQuery));
+                //}
+
+                //mutiple fields support
+                switch (filterOn.ToLower())
+                {
+                    case "name":
+                        walks = walks.Where(w => w.Name.Contains(filterQuery));
+                        break;
+                    case "description":
+                        walks = walks.Where(w => w.Description.Contains(filterQuery));
+                        break;
+                    case "region":
+                        walks = walks.Where(w => w.Region.Name.Contains(filterQuery));
+                        break;
+                    case "difficulty":
+                        walks = walks.Where(w => w.Difficulty.Name.Contains(filterQuery));
+                        break;
+                }
+            }
+            //sorting by Name length 
+            //if(!string.IsNullOrWhiteSpace(sortBy))
+            //{
+            //    if (sortBy.Equals("name", StringComparison.OrdinalIgnoreCase))
+            //    {
+            //         walks = isAscending ? walks.OrderBy(w => w.Name) : walks.OrderByDescending(w => w.Name);
+            //    }
+            //    else if (sortBy.Equals("length", StringComparison.OrdinalIgnoreCase))
+            //    {
+            //       walks = isAscending ? walks.OrderBy(w => w.LengthInKm) : walks.OrderByDescending(w => w.LengthInKm);
+            //    }                    
+            //}
+            if (!string.IsNullOrWhiteSpace(sortBy))
+            {
+                switch (sortBy.ToLower())
+                {
+                    case "name":
+                        walks = isAscending ? walks.OrderBy(w => w.Name) : walks.OrderByDescending(w => w.Name);
+                        break;
+                    case "length":
+                        walks = isAscending ? walks.OrderBy(w => w.LengthInKm) : walks.OrderByDescending(w => w.LengthInKm);
+                        break;
+                }
+            }
+            var result = await walks.ToListAsync();
             return result;
         }
 

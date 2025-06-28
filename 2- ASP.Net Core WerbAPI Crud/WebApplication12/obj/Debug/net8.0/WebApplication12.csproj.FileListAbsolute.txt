@@ -259,11 +259,6 @@ C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebAppli
 C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\WebApplication12.sourcelink.json
 C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication12.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApplication12.props
-C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication12.props
-C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication12.props
-C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\scopedcss\bundle\WebApplication12.styles.css
 C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\WebAppli.32122278.Up2Date
 C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\WebApplication12.dll
@@ -271,3 +266,11 @@ C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebAppli
 C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\WebApplication12.pdb
 C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\WebApplication12.genruntimeconfig.cache
 C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\ref\WebApplication12.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\bin\Debug\net8.0\WebApplication12.staticwebassets.endpoints.json
+C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\user\Desktop\ASP.Net Core Web API\2- ASP.Net Core WerbAPI Crud\WebApplication12\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

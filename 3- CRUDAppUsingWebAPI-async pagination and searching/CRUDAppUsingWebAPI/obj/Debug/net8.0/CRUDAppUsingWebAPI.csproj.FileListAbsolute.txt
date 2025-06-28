@@ -896,11 +896,6 @@ C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async paginatio
 C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\CRUDAppUsingWebAPI.sourcelink.json
 C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\staticwebassets\msbuild.CRUDAppUsingWebAPI.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.CRUDAppUsingWebAPI.props
-C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CRUDAppUsingWebAPI.props
-C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CRUDAppUsingWebAPI.props
-C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\scopedcss\bundle\CRUDAppUsingWebAPI.styles.css
 C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\scopedcss\projectbundle\CRUDAppUsingWebAPI.bundle.scp.css
@@ -910,3 +905,11 @@ C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async paginatio
 C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\CRUDAppUsingWebAPI.pdb
 C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\CRUDAppUsingWebAPI.genruntimeconfig.cache
 C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\ref\CRUDAppUsingWebAPI.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\bin\Debug\net8.0\CRUDAppUsingWebAPI.staticwebassets.endpoints.json
+C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\user\Desktop\ASP.Net Core Web API\3- CRUDAppUsingWebAPI-async pagination and searching\CRUDAppUsingWebAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
