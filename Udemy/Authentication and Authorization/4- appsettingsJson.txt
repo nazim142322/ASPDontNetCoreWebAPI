@@ -1,0 +1,11 @@
+"JWT": {
+  "Key": "w2X9vRkN8hT5mYpLz3A7sQeRjU6kBnVm",
+  "Issuer": "https://localhost:7050",
+  "Audience": "https://localhost:7050"
+},
+
+"Jwt": {
+  "Key": "w2X9vRkN8hT5mYpLz3A7sQeRjU6kBnVm",
+  "Issuer": "demoapp.com",
+  "Audience": "demoapp.com"
+}

@@ -1,0 +1,1 @@
+server generate JWT Tocken and send back to the client

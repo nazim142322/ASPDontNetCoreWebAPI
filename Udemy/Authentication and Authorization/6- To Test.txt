@@ -1,0 +1,13 @@
+Put [Authorize] in api application
+
+
+//https://localhost:1234/api/regions
+[Route("api/[controller]")]
+[ApiController]
+
+[Authorize]
+public class RegionsController
+
+And try to get records or call any method
+401
+Error: response status is 401

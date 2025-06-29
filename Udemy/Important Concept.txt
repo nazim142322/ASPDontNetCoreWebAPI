@@ -1,0 +1,8 @@
+Query String
+Relationship
+Linq 
+-where (filter) 
+AsQuerable() method
+-contains(searching)
+-take skip(pagination)
+-sorting(sorting)

@@ -98,6 +98,8 @@ namespace NZWalksAPI.Controllers
             return Ok(walkDTOs);
         }
 
+       
+
         //filter and sorting
         //Get:/api/walks?filterOn=Name&filterQuery=Track&SortBy=Name&isActive=true
         [HttpGet("FiltteringSorting")]
@@ -118,6 +120,35 @@ namespace NZWalksAPI.Controllers
             //Return the list of WalkDTOs
             return Ok(walkDTOs);
         }
+
+
+
+        //filter sorting and pagination
+        //Get:/api/walks?filterOn=Name&filterQuery=Track&SortBy=Name&isActive=true
+        [HttpGet("FiltteringSortingPagination")]
+        public async Task<IActionResult> GetAllByFilterSortingPagination([FromQuery] string? filterOn, [FromQuery] string? filterQuery,
+            [FromQuery] string? sortBy, [FromQuery] bool? isAscending, [FromQuery] int pageNumber=1, [FromQuery] int pageSize=100)
+        {
+            //Get all walks from the database
+            var walksDomainModel = await _walkRepository.GetAllByFilterSortingPagination(filterOn, filterQuery, sortBy, isAscending ?? true,
+                pageNumber, pageSize);
+
+            //Check if any walks were found
+            if (walksDomainModel == null || !walksDomainModel.Any())
+            {
+                return NotFound("No walks found.");
+            }
+
+            //Map Domain Models to DTOs using AutoMapper
+            var walkDTOs = _mapper.Map<IEnumerable<WalkDTO>>(walksDomainModel);
+            //Return the list of WalkDTOs
+            return Ok(walkDTOs);
+        }
+
+
+
+
+
 
         [HttpGet("{id:Guid}")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)

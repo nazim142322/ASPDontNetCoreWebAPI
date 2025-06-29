@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using NZWalksAPI.Data;
 using NZWalksAPI.Models.Domain;
 using NZWalksAPI.Models.DTO;
@@ -34,11 +35,13 @@ namespace NZWalksAPI.Repositories
         }
 
      
-       // This method allows filtering on properties of the Walks
+       // filtering on properties of the Walks
        public async Task<IEnumerable<Walk>> GetWalksByFilterAsync( string? filterOn=null, string? filterQuery=null)
         {     
             var walks = _dbContext.Walks.Include("Region").Include("Difficulty").AsQueryable();
-            if(!string.IsNullOrWhiteSpace(filterOn) && !string.IsNullOrEmpty(filterQuery))
+
+            //filtering
+            if (!string.IsNullOrWhiteSpace(filterOn) && !string.IsNullOrEmpty(filterQuery))
             {  
                 //single field search
                 //if(filterOn.Equals("Name", StringComparison.OrdinalIgnoreCase))
@@ -67,12 +70,14 @@ namespace NZWalksAPI.Repositories
             return result;
         }
 
+      
         // filter and sorting
         public async Task<IEnumerable<Walk>> GetWalksByFilterSortingAsync(string? filterOn = null, string? filterQuery = null, 
             string? sortBy=null, bool isAscending = true )
         {
             var walks = _dbContext.Walks.Include("Region").Include("Difficulty").AsQueryable();
 
+            //filtering
             if (!string.IsNullOrWhiteSpace(filterOn) && !string.IsNullOrEmpty(filterQuery))
             {
                 //single field search
@@ -126,12 +131,14 @@ namespace NZWalksAPI.Repositories
             return result;
         }
 
+     
         // filter sorting and pagination
-        public async Task<IEnumerable<Walk>> GetWalksByFilterSortingPaginationAsync(string? filterOn = null, string? filterQuery = null,
-            string? sortBy = null, bool isAscending = true)
+        public async Task<IEnumerable<Walk>> GetAllByFilterSortingPagination(string? filterOn, string? filterQuery,
+            string? sortBy, bool isAscending, int pageNumber = 1, int pageSize = 100)
         {
             var walks = _dbContext.Walks.Include("Region").Include("Difficulty").AsQueryable();
 
+            //Filtering
             if (!string.IsNullOrWhiteSpace(filterOn) && !string.IsNullOrEmpty(filterQuery))
             {
                 //single field search
@@ -181,9 +188,14 @@ namespace NZWalksAPI.Repositories
                         break;
                 }
             }
-            var result = await walks.ToListAsync();
+
+            // Pagination
+            var skipResult = (pageNumber - 1) * pageSize; // Calculate the number of records to skip
+           
+            var result = await walks.Skip(skipResult).Take(pageSize).ToListAsync();
             return result;
         }
+
 
         public Task<Walk> GetByIdAsync(Guid id)
         {
