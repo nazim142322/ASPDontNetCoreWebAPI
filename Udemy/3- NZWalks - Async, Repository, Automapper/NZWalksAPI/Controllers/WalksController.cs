@@ -147,9 +147,6 @@ namespace NZWalksAPI.Controllers
 
 
 
-
-
-
         [HttpGet("{id:Guid}")]
         public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
@@ -171,6 +168,8 @@ namespace NZWalksAPI.Controllers
             return Ok(walkDomainModel);
         }
 
+       
+        
         [HttpPut("{id:guid}")]
         [ValidateModel]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateWalkRequestDTO updateWalkRequestdto)
@@ -199,6 +198,8 @@ namespace NZWalksAPI.Controllers
             return Ok(updatedWalkDTO);
         }
 
+       
+        
         [HttpDelete("{id:guid}")]
         public async Task<IActionResult> Delete([FromRoute] Guid id)
         {

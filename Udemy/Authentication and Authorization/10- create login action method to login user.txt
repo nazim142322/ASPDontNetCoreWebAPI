@@ -1,0 +1,2 @@
+user will login to the app with username and password 
+and checking username and password is valid if valid then generate a token

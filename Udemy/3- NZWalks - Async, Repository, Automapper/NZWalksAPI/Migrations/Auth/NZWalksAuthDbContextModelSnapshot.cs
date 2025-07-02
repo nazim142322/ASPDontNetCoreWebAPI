@@ -62,6 +62,13 @@ namespace NZWalksAPI.Migrations.Auth
                             ConcurrencyStamp = "c5715846-7a07-4fba-bc3e-bfd9dcdd67a9",
                             Name = "Writer",
                             NormalizedName = "WRITER"
+                        },
+                        new
+                        {
+                            Id = "24b862e9-bb00-4c1a-9c50-5765924c2176",
+                            ConcurrencyStamp = "24b862e9-bb00-4c1a-9c50-5765924c2176",
+                            Name = "Dummy",
+                            NormalizedName = "DUMMY"
                         });
                 });
 
