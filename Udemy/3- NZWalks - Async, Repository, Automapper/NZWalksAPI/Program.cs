@@ -14,7 +14,34 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options=>
+    {
+     options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo {Title = "NZ Walks API",Version = "v1", Description = "API for managing NZ Walks"});
+     options.AddSecurityDefinition(JwtBearerDefaults.AuthenticationScheme, new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+     {
+         Name = "Authorization",
+         In = Microsoft.OpenApi.Models.ParameterLocation.Header,
+         Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey,
+         Scheme = JwtBearerDefaults.AuthenticationScheme,
+     });
+        options.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+    {
+        {
+            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+            {
+                Reference = new Microsoft.OpenApi.Models.OpenApiReference
+                {
+                    Type = Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
+                    Id = JwtBearerDefaults.AuthenticationScheme,
+                },
+                Scheme = "Oath2",
+                Name = JwtBearerDefaults.AuthenticationScheme,
+                In = Microsoft.OpenApi.Models.ParameterLocation.Header
+            },
+            new List<string>()
+        }
+    });
+    });
 
 // Register the  App DbContext with dependency injection
 var connectionString = builder.Configuration.GetConnectionString("NZWalksConnectionString");
@@ -29,6 +56,7 @@ builder.Services.AddDbContext<NZWalksAuthDbContext>(options =>
 // Register the repository with dependency injection
 builder.Services.AddScoped<IRegionRepository, SQLRegionRepository>();
 builder.Services.AddScoped<IWalkRepository, SQLWalkRepository>();
+builder.Services.AddScoped<ITokenRepository, TokenRepository>();
 
 // Register AutoMapper
 builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
@@ -68,7 +96,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     );
 
 var app = builder.Build();
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

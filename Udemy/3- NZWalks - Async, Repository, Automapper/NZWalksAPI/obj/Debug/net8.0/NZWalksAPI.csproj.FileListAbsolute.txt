@@ -556,3 +556,4 @@ C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository,
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\obj\Debug\net8.0\NZWalksAPI.pdb
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\obj\Debug\net8.0\NZWalksAPI.genruntimeconfig.cache
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\obj\Debug\net8.0\ref\NZWalksAPI.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\NZWalksAPI.staticwebassets.runtime.json

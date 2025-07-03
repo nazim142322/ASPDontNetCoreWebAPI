@@ -39,19 +39,48 @@ namespace NZWalksAPI.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("aa7bc287-a747-4cd4-a652-c337f5d36df8"),
+                            Id = new Guid("e81831a8-d2e1-4b47-bfda-b378227ea681"),
                             Name = "Easy"
                         },
                         new
                         {
-                            Id = new Guid("185a83b6-eca8-4a40-86bd-44abba6bf337"),
+                            Id = new Guid("edccd29e-e9a9-490c-8ef7-95639a3438d3"),
                             Name = "Medium"
                         },
                         new
                         {
-                            Id = new Guid("278d59ff-285e-4b13-9072-1c5780de16fc"),
+                            Id = new Guid("27a4b336-6632-47b3-8ee5-ceb21299f555"),
                             Name = "Hard"
                         });
+                });
+
+            modelBuilder.Entity("NZWalksAPI.Models.Domain.Image", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileExtension")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FilePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("FileSizeInBytes")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Images");
                 });
 
             modelBuilder.Entity("NZWalksAPI.Models.Domain.Region", b =>
@@ -78,35 +107,35 @@ namespace NZWalksAPI.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("e5505c6e-6645-4fc9-8f12-d44465e2aaa8"),
+                            Id = new Guid("c4b0e728-2dd1-4b39-8e68-e1c973f02c30"),
                             Code = "NTH",
                             Name = "Northland",
                             RegionImageUrl = "https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg"
                         },
                         new
                         {
-                            Id = new Guid("03698f50-8393-4b56-9854-811b16251ead"),
+                            Id = new Guid("8d03f678-e807-4e4c-9c9a-9e84fd3afa41"),
                             Code = "AKL",
                             Name = "Auckland",
                             RegionImageUrl = "https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg"
                         },
                         new
                         {
-                            Id = new Guid("0df0a773-6473-4e7d-8893-50deb5455107"),
+                            Id = new Guid("e45a0f11-a18b-45a5-a09f-5af2d4e828a7"),
                             Code = "WKO",
                             Name = "Waikato",
                             RegionImageUrl = "https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg"
                         },
                         new
                         {
-                            Id = new Guid("77dea13b-c820-4b6e-9086-49aab6b944e1"),
+                            Id = new Guid("4abced85-4245-43e3-90aa-795dc043d4d8"),
                             Code = "BOP",
                             Name = "Bay of Plenty",
                             RegionImageUrl = "https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg"
                         },
                         new
                         {
-                            Id = new Guid("d428b08e-d4f3-4219-9dc2-3c728446a4be"),
+                            Id = new Guid("f392bebf-4fea-405c-b45b-70f9a5e9ecf7"),
                             Code = "GIS",
                             Name = "Gisborne",
                             RegionImageUrl = "https://images.pexels.com/photos/2325447/pexels-photo-2325447.jpeg"

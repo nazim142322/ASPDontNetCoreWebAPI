@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NZWalksAPI.Models.DTO;
+using NZWalksAPI.Repositories;
 
 namespace NZWalksAPI.Controllers
 {
@@ -10,11 +11,14 @@ namespace NZWalksAPI.Controllers
     {
         private readonly UserManager<IdentityUser> _userManager; //to create user
         private readonly RoleManager<IdentityRole> _roleManager; //to perform task role related
-        public AuthController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager)
+        private readonly ITokenRepository _tokenRepository;
+        public AuthController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, ITokenRepository tokenRepository)
         {
             _userManager = userManager;
             _roleManager = roleManager;
+            _tokenRepository = tokenRepository;
         }
+
 
         // POST: api/Auth/Register
         [HttpPost]
@@ -103,7 +107,7 @@ namespace NZWalksAPI.Controllers
         [HttpPost("RegisterUserValidRole")]
         public async Task<IActionResult> RegisterUserValidRole([FromBody] RegisterRequestDTO registerRequestDTO)
         {
-            // validate the request by manually checking the properties (null empty or whitespace)
+            // validate the request by manually checking the properties (null empty or whitespace) if dont apply validation attributes in DTO
             if (registerRequestDTO == null || string.IsNullOrWhiteSpace(registerRequestDTO.Username) ||
                 string.IsNullOrWhiteSpace(registerRequestDTO.EmailAddress) ||
                 string.IsNullOrWhiteSpace(registerRequestDTO.Password) ||
@@ -163,16 +167,42 @@ namespace NZWalksAPI.Controllers
                 return Unauthorized(new { Message = "Invalid usernamee or password" });
             }
 
-            //Check if password is correct
+            //Check if password is correct return true or false
             var passwordCheck = await _userManager.CheckPasswordAsync(identityUser, loginRequestDTO.Password);//return true or false
             if (!passwordCheck)
             {
                 return Unauthorized(new { Message = "Invalid Username or Passwordd" });
             }
-            //if password is correct , we can generate JWT token
 
+            //get the user role
+            var roles = await _userManager.GetRolesAsync(identityUser);
 
-            return Ok(new { Message = "login successfully" });
+            //Check if user has any roles assigned
+            if (roles == null || !roles.Any())
+            {
+               return BadRequest(new { Message = "User has no roles assigned" });
+            }
+
+            //generate jwt token
+            var jwtToken = _tokenRepository.CreateJWTToken(identityUser, roles.ToList());
+
+            //var response = new LoginResponseDTO
+            //{
+            //JwtToken = jwtToken,
+            //};
+
+            //return the token and user detail for later use            
+            var response = new
+            {
+                Token = jwtToken,
+                UserId = identityUser.Id,
+                Username = identityUser.UserName,
+                Email = identityUser.Email,
+                Roles = roles
+            };
+            //return Ok(jwtToken);
+            return Ok(response);
+            //return Ok(new { Message = "login successfully" });
         }
 
     }

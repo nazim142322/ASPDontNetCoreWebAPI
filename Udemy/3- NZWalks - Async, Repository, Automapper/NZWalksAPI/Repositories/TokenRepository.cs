@@ -13,7 +13,7 @@ namespace NZWalksAPI.Repositories
         {
             _configuration = configuration;
         }
-        public string CreateJWTToken(IdentityUser user, List<string> roles)
+        public string CreateJWTToken(IdentityUser user, List<string> roles)//need identityUser and its role
         {
             // create claims
             var claims = new List<Claim>();

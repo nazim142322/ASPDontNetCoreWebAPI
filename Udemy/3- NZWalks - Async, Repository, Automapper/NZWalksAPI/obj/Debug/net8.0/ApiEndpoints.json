@@ -64,6 +64,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NZWalksAPI.Controllers.ImagesController",
+    "Method": "UploadImage",
+    "RelativePath": "api/Images/Upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NZWalksAPI.Controllers.RegionsController",
     "Method": "GetAll",
     "RelativePath": "api/Regions",
