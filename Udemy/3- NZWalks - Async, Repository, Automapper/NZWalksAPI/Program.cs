@@ -14,6 +14,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+//adding authentication in swagger
 builder.Services.AddSwaggerGen(options=>
     {
      options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo {Title = "NZ Walks API",Version = "v1", Description = "API for managing NZ Walks"});
@@ -24,7 +26,7 @@ builder.Services.AddSwaggerGen(options=>
          Type = Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey,
          Scheme = JwtBearerDefaults.AuthenticationScheme,
      });
-        options.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
+     options.AddSecurityRequirement(new Microsoft.OpenApi.Models.OpenApiSecurityRequirement
     {
         {
             new Microsoft.OpenApi.Models.OpenApiSecurityScheme
@@ -107,6 +109,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
+
 app.UseAuthorization();
 
 app.MapControllers();
