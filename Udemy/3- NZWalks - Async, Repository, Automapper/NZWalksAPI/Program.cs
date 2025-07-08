@@ -12,6 +12,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+
+
+//to serve static files like images
+builder.Services.AddHttpContextAccessor();
+
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
@@ -45,22 +52,23 @@ builder.Services.AddSwaggerGen(options=>
     });
     });
 
-// Register the  App DbContext with dependency injection
+//1- Register the  App DbContext with dependency injection
 var connectionString = builder.Configuration.GetConnectionString("NZWalksConnectionString");
 builder.Services.AddDbContext<NZWalksDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-// Register the authentication database context with dependency injection
+//5- Register the authentication database context with dependency injection
 var authConnectionString = builder.Configuration.GetConnectionString("NZWalksAuthConnectionString");
 builder.Services.AddDbContext<NZWalksAuthDbContext>(options =>
     options.UseSqlServer(authConnectionString));
 
-// Register the repository with dependency injection
+//2-  Register the repository with dependency injection
 builder.Services.AddScoped<IRegionRepository, SQLRegionRepository>();
 builder.Services.AddScoped<IWalkRepository, SQLWalkRepository>();
 builder.Services.AddScoped<ITokenRepository, TokenRepository>();
+builder.Services.AddScoped<IImageRepository, LocalImageRepository>();
 
-// Register AutoMapper
+//3-  Register AutoMapper
 builder.Services.AddAutoMapper(typeof(AutoMapperProfiles));
 
 // Register Identity services
@@ -70,7 +78,7 @@ builder.Services.AddIdentityCore<IdentityUser>()
     .AddEntityFrameworkStores<NZWalksAuthDbContext>()
     .AddDefaultTokenProviders();
 
-// Configure Identity options
+//6- Configure Identity options
 builder.Services.Configure<IdentityOptions>(options =>
 {
     // Password settings
@@ -82,7 +90,7 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequiredUniqueChars = 1;
 });
 
-// Configure authentication
+//5- Configure authentication
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
      options.TokenValidationParameters = new TokenValidationParameters

@@ -11,7 +11,7 @@ namespace NZWalksAPI.Models.Domain
         [NotMapped]
         public IFormFile File { get; set; }//ignored by EF Core, used for file upload
 
-        public string FileName { get; set; }//from image upload
+        public string FileName { get; set; }//User will the file name, e.g., "abc.jpg"
 
         public string? Description { get; set; }//by user
 
