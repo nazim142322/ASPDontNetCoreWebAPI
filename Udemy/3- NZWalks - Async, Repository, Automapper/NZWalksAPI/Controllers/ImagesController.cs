@@ -35,7 +35,7 @@ namespace NZWalksAPI.Controllers
                 FileSizeInBytes = imgRequest.File.Length,
                 FileName = imgRequest.FileName,
                 Description = imgRequest.Description,
-                //file path will be set later in the repository
+                //FilePath will be set later in the repository
             };
             // Call the repository to save the image
             await _imageRepository.Upload(imageDomainModel);
