@@ -413,6 +413,8 @@ C:\Users\Administrator\Desktop\Web Dev\ASPDontNetCoreWebAPI\Udemy\3- NZWalks - A
 C:\Users\Administrator\Desktop\Web Dev\ASPDontNetCoreWebAPI\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\obj\Debug\net8.0\NZWalksAPI.pdb
 C:\Users\Administrator\Desktop\Web Dev\ASPDontNetCoreWebAPI\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\obj\Debug\net8.0\NZWalksAPI.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\Web Dev\ASPDontNetCoreWebAPI\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\obj\Debug\net8.0\ref\NZWalksAPI.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\appsettings.json
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\NZWalksAPI.staticwebassets.runtime.json
@@ -437,7 +439,6 @@ C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository,
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
@@ -454,7 +455,6 @@ C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository,
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\bin\Debug\net8.0\System.Composition.Convention.dll

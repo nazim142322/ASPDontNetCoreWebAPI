@@ -61,54 +61,6 @@ namespace NZWalksAPI.Controllers
                 ModelState.AddModelError("File", "File size exceeds the maximum limit of 5 MB.");
             }
         }
-
-
-        [HttpPost]
-        [Route("UploadLocal")]        
-        public async Task<IActionResult> UploadLocalImage([FromForm] ImageUploadRequestDTO imgRequest) // Image upload method — file frontend form se aayegi
-        {
-            // Check kar rahe hain ki file null to nahi hai (user ne kuch bheja bhi hai ya nahi)
-            if (imgRequest == null || imgRequest.File == null)
-            {
-                return BadRequest("No file uploaded."); // Agar nahi bheja to error de do
-            }
-
-            try
-            {
-                // File ka type/size valid hai ya nahi check karo (jaise sirf jpg/png allow ho)
-                ValidateFileUpload(imgRequest);
-
-                // Upload hone wali image ko kaha save karna hai? => "LocalUploads" folder me
-                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "LocalUploads");
-
-                // Agar "LocalUploads" naam ka folder exist nahi karta to usse create karo
-                if (!Directory.Exists(uploadsFolder))
-                {
-                    Directory.CreateDirectory(uploadsFolder); // pehli baar ke liye folder banta hai
-                }
-
-                // Unique naam banate hain file ka (taaki kisi aur ki file overwrite na ho)
-                var fileName = $"{Guid.NewGuid()}{Path.GetExtension(imgRequest.File.FileName)}";
-
-                // Final path jaha image save hogi: e.g., C:/Project/LocalUploads/xyz.jpg
-                var filePath = Path.Combine(uploadsFolder, fileName);
-
-                // File ko is path par copy kar rahe hain stream ke through
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await imgRequest.File.CopyToAsync(stream); // async tareeke se save ho rahi hai
-                }
-
-                // Response return kar rahe hain — file ka naam, path, aur message
-                return Ok(new { FileName = fileName, FilePath = filePath, Message = "Image uploaded locally." });
-            }
-            catch (Exception ex)
-            {
-                // Agar kuch galti ho gayi to uska message de do
-                return BadRequest(ex.Message);
-            }
-        }
-
     }
 }
 

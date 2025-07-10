@@ -20,9 +20,9 @@ public class LocalImageRepository : IImageRepository
     public async Task<Image> Upload(Image image)
     {
         //combine given file name with extension
-        var fileNameWithExtension = $"{image.FileName}{image.FileExtension}";
+        //var fileNameWithExtension = $"{image.FileName}{image.FileExtension}";
+        var fileNameWithExtension = Guid.NewGuid().ToString()+"_"+$"{image.FileName}{image.FileExtension}";
 
-        
         var localFilePath = Path.Combine(_evm.ContentRootPath, "Images", fileNameWithExtension);
 
         //upload image to local path
