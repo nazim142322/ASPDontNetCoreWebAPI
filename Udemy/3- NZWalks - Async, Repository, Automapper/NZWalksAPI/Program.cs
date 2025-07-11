@@ -6,16 +6,35 @@ using Microsoft.IdentityModel.Tokens;
 using NZWalksAPI.AutoMappings;
 using NZWalksAPI.Data;
 using NZWalksAPI.Repositories;
+using Serilog;
 using System.Net.NetworkInformation;
 using System.Text;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+//--------------Start configure serilog-------------------//
+// Configure Serilog for logging
+var logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .MinimumLevel.Information()
+    .CreateLogger();
+
+// clear default logging providers and add Serilog
+builder.Logging.ClearProviders();
+
+// Add Serilog as the logging provider
+builder.Logging.AddSerilog(logger);
+//--------------End-configure serilog-------------------//
+
+
+
 // Add services to the container.
 builder.Services.AddControllers();
 
 
+//---------To Serve Static Files--------//
 //to serve static files like images
 builder.Services.AddHttpContextAccessor();
 
