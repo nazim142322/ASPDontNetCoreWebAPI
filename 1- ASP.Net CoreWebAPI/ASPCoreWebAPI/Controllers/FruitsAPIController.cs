@@ -17,9 +17,14 @@ namespace ASPCoreWebAPI.Controllers
         {
             return fruits;
         }
+        [HttpGet("GellAll")]
+        public List<string> GetAllFruits()
+        {
+            return fruits;
+        }
 
         [HttpGet("{id}")]
-        public string GetFruitsByIndex(int id)
+        public string GetFruitsByIndex([FromRoute]int id)
          {
             return fruits.ElementAt(id);
         }

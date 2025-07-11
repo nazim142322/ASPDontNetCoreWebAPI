@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\ASPCoreWebAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Web Dev\\ASPDontNetCoreWebAPI\\1- ASP.Net CoreWebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C92FF3B9-C60D-4AE8-A651-387F8BC9621E}|ASPCoreWebAPI\\ASPCoreWebAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\aspcorewebapi\\aspcorewebapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C92FF3B9-C60D-4AE8-A651-387F8BC9621E}|ASPCoreWebAPI\\ASPCoreWebAPI.csproj|solutionrelative:aspcorewebapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C92FF3B9-C60D-4AE8-A651-387F8BC9621E}|ASPCoreWebAPI\\ASPCoreWebAPI.csproj|c:\\users\\administrator\\desktop\\web dev\\aspdontnetcorewebapi\\1- asp.net corewebapi\\aspcorewebapi\\controllers\\fruitsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92FF3B9-C60D-4AE8-A651-387F8BC9621E}|ASPCoreWebAPI\\ASPCoreWebAPI.csproj|solutionrelative:aspcorewebapi\\controllers\\fruitsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C92FF3B9-C60D-4AE8-A651-387F8BC9621E}|ASPCoreWebAPI\\ASPCoreWebAPI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\aspcorewebapi\\aspcorewebapi\\controllers\\fruitsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C92FF3B9-C60D-4AE8-A651-387F8BC9621E}|ASPCoreWebAPI\\ASPCoreWebAPI.csproj|solutionrelative:aspcorewebapi\\controllers\\fruitsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C92FF3B9-C60D-4AE8-A651-387F8BC9621E}|ASPCoreWebAPI\\ASPCoreWebAPI.csproj|c:\\users\\administrator\\desktop\\web dev\\aspdontnetcorewebapi\\1- asp.net corewebapi\\aspcorewebapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92FF3B9-C60D-4AE8-A651-387F8BC9621E}|ASPCoreWebAPI\\ASPCoreWebAPI.csproj|solutionrelative:aspcorewebapi\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ValuesController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\ASPCoreWebAPI\\ASPCoreWebAPI\\Controllers\\ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Web Dev\\ASPDontNetCoreWebAPI\\1- ASP.Net CoreWebAPI\\ASPCoreWebAPI\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "ASPCoreWebAPI\\Controllers\\ValuesController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\ASPCoreWebAPI\\ASPCoreWebAPI\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Web Dev\\ASPDontNetCoreWebAPI\\1- ASP.Net CoreWebAPI\\ASPCoreWebAPI\\Controllers\\ValuesController.cs",
               "RelativeToolTip": "ASPCoreWebAPI\\Controllers\\ValuesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T15:51:56.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FruitsAPIController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\ASPCoreWebAPI\\ASPCoreWebAPI\\Controllers\\FruitsAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Web Dev\\ASPDontNetCoreWebAPI\\1- ASP.Net CoreWebAPI\\ASPCoreWebAPI\\Controllers\\FruitsAPIController.cs",
               "RelativeDocumentMoniker": "ASPCoreWebAPI\\Controllers\\FruitsAPIController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\ASPCoreWebAPI\\ASPCoreWebAPI\\Controllers\\FruitsAPIController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Web Dev\\ASPDontNetCoreWebAPI\\1- ASP.Net CoreWebAPI\\ASPCoreWebAPI\\Controllers\\FruitsAPIController.cs",
               "RelativeToolTip": "ASPCoreWebAPI\\Controllers\\FruitsAPIController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBMAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T16:49:13.25Z"
+              "WhenOpened": "2025-06-03T16:49:13.25Z",
+              "EditorCaption": ""
             }
           ]
         }
