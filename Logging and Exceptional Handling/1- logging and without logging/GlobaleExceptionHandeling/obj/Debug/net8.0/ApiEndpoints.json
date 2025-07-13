@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "GlobaleExceptionHandeling.Controllers.StudentController",
+    "Method": "GetAll",
+    "RelativePath": "api/Student",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GlobaleExceptionHandeling.Controllers.StudentController",
+    "Method": "GetAllSutdents",
+    "RelativePath": "api/Student/GetAllStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

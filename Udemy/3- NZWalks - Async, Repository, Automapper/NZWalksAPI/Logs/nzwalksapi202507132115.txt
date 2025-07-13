@@ -1,0 +1,2 @@
+2025-07-13 21:15:12.688 +05:30 [WRN] This is a warning message from Serilog
+2025-07-13 21:15:12.754 +05:30 [ERR] This is an error message from Serilog

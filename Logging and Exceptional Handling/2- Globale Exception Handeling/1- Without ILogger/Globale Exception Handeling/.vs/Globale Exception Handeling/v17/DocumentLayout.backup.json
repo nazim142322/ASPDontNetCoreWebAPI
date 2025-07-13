@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Globale Exception Handeling\\Without logging\\Globale Exception Handeling\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F701B9CE-1D63-478F-A1EF-D7BF1C00CBAA}|Globale Exception Handeling\\Globale Exception Handeling.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\globale exception handeling\\without logging\\globale exception handeling\\globale exception handeling\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F701B9CE-1D63-478F-A1EF-D7BF1C00CBAA}|Globale Exception Handeling\\Globale Exception Handeling.csproj|solutionrelative:globale exception handeling\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F701B9CE-1D63-478F-A1EF-D7BF1C00CBAA}|Globale Exception Handeling\\Globale Exception Handeling.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\globale exception handeling\\without logging\\globale exception handeling\\globale exception handeling\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F701B9CE-1D63-478F-A1EF-D7BF1C00CBAA}|Globale Exception Handeling\\Globale Exception Handeling.csproj|solutionrelative:globale exception handeling\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F701B9CE-1D63-478F-A1EF-D7BF1C00CBAA}|Globale Exception Handeling\\Globale Exception Handeling.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\globale exception handeling\\without logging\\globale exception handeling\\globale exception handeling\\globale exception handeling.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{F701B9CE-1D63-478F-A1EF-D7BF1C00CBAA}|Globale Exception Handeling\\Globale Exception Handeling.csproj|solutionrelative:globale exception handeling\\globale exception handeling.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F701B9CE-1D63-478F-A1EF-D7BF1C00CBAA}|Globale Exception Handeling\\Globale Exception Handeling.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\globale exception handeling\\without logging\\globale exception handeling\\globale exception handeling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F701B9CE-1D63-478F-A1EF-D7BF1C00CBAA}|Globale Exception Handeling\\Globale Exception Handeling.csproj|solutionrelative:globale exception handeling\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Globale Exception Handeling.http",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Globale Exception Handeling\\Without logging\\Globale Exception Handeling\\Globale Exception Handeling\\Globale Exception Handeling.http",
+              "RelativeDocumentMoniker": "Globale Exception Handeling\\Globale Exception Handeling.http",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Globale Exception Handeling\\Without logging\\Globale Exception Handeling\\Globale Exception Handeling\\Globale Exception Handeling.http",
+              "RelativeToolTip": "Globale Exception Handeling\\Globale Exception Handeling.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-13T11:15:26.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Globale Exception Handeling\\Without logging\\Globale Exception Handeling\\Globale Exception Handeling\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Globale Exception Handeling\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Globale Exception Handeling\\Without logging\\Globale Exception Handeling\\Globale Exception Handeling\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Globale Exception Handeling\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T10:53:18.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Globale Exception Handeling\\Without logging\\Globale Exception Handeling\\Globale Exception Handeling\\Program.cs",
+              "RelativeDocumentMoniker": "Globale Exception Handeling\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Globale Exception Handeling\\Without logging\\Globale Exception Handeling\\Globale Exception Handeling\\Program.cs",
+              "RelativeToolTip": "Globale Exception Handeling\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T10:52:00.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Globale Exception Handeling\\Without logging\\Globale Exception Handeling\\Globale Exception Handeling\\MiddleWare\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Globale Exception Handeling\\MiddleWare\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Globale Exception Handeling\\Without logging\\Globale Exception Handeling\\Globale Exception Handeling\\MiddleWare\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "Globale Exception Handeling\\MiddleWare\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwCMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T10:50:29.172Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

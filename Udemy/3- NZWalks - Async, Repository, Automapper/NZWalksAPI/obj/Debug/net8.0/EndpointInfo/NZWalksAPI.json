@@ -315,6 +315,66 @@
         }
       }
     },
+    "/api/TestGlobalMiddleware/testException": {
+      "get": {
+        "tags": [
+          "TestGlobalMiddleware"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TestGlobalMiddleware/testNotFound": {
+      "get": {
+        "tags": [
+          "TestGlobalMiddleware"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TestLogging/Serilog": {
+      "get": {
+        "tags": [
+          "TestLogging"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TestLogging/logException": {
+      "get": {
+        "tags": [
+          "TestLogging"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TestLogging/LogsToFile": {
+      "get": {
+        "tags": [
+          "TestLogging"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Walks": {
       "post": {
         "tags": [

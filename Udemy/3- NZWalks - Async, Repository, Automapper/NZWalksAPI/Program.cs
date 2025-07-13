@@ -5,6 +5,7 @@ using Microsoft.Extensions.FileProviders;
 using Microsoft.IdentityModel.Tokens;
 using NZWalksAPI.AutoMappings;
 using NZWalksAPI.Data;
+using NZWalksAPI.Middlewares.GlobalExcepHandlerMiddleware;
 using NZWalksAPI.Repositories;
 using Serilog;
 using System.Net.NetworkInformation;
@@ -17,8 +18,9 @@ var builder = WebApplication.CreateBuilder(args);
 //--------------Start configure serilog-------------------//
 // Configure Serilog for logging
 var logger = new LoggerConfiguration()
-    .WriteTo.Console()
-    .MinimumLevel.Information()
+    .WriteTo.Console()// Log to console
+    .WriteTo.File("Logs/nzwalksapi.txt", rollingInterval: RollingInterval.Minute) // Log to a file with daily rolling   
+    .MinimumLevel.Warning() // Set minimum log level to Warning
     .CreateLogger();
 
 // clear default logging providers and add Serilog
@@ -134,6 +136,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseMiddleware<ExceptionHandleMiddleware>();
+// Use the global exception handler middleware
 
 app.UseHttpsRedirection();
 

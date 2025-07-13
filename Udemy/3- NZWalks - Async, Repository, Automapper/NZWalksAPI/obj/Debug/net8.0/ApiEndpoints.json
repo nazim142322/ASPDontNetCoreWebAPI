@@ -179,6 +179,56 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NZWalksAPI.Controllers.TestGlobalMiddlewareController",
+    "Method": "TestException",
+    "RelativePath": "api/TestGlobalMiddleware/testException",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NZWalksAPI.Controllers.TestGlobalMiddlewareController",
+    "Method": "TestNotFound",
+    "RelativePath": "api/TestGlobalMiddleware/testNotFound",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NZWalksAPI.Controllers.TestLoggingController",
+    "Method": "ExceptionHandling",
+    "RelativePath": "api/TestLogging/logException",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NZWalksAPI.Controllers.TestLoggingController",
+    "Method": "SerilogLogToFile",
+    "RelativePath": "api/TestLogging/LogsToFile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NZWalksAPI.Controllers.TestLoggingController",
+    "Method": "SerilogLogging",
+    "RelativePath": "api/TestLogging/Serilog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NZWalksAPI.Controllers.WalksController",
     "Method": "Create",
     "RelativePath": "api/Walks",

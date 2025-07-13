@@ -1,0 +1,3 @@
+2025-07-13 21:48:05.769 +05:30 [ERR] This is a test exception for Serilog logging
+System.Exception: This is a test exception for Serilog logging
+   at NZWalksAPI.Controllers.TestLoggingController.ExceptionHandling() in C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\3- NZWalks - Async, Repository, Automapper\NZWalksAPI\Controllers\TestLoggingController.cs:line 46

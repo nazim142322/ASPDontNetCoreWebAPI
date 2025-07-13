@@ -1,7 +1,7 @@
 Serilog
 Serilog.AspNetCore
-Serilog.Sinks.Console
+Serilog.Sinks.Console - to get the logs on console
 
 Serilog
 Serilog.AspNetCore
-Serilog.Sinks.File
+Serilog.Sinks.File  - get the logs on text file

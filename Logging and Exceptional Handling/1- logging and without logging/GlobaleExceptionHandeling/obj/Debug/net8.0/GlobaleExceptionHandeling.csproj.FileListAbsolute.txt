@@ -1,0 +1,108 @@
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\appsettings.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.staticwebassets.endpoints.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.exe
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.deps.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.runtimeconfig.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.pdb
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.AssemblyInfo.cs
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.sourcelink.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\scopedcss\bundle\GlobaleExceptionHandeling.styles.css
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleE.4E8B4B2A.Up2Date
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\refint\GlobaleExceptionHandeling.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.pdb
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.genruntimeconfig.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Globale Exception Handling\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\ref\GlobaleExceptionHandeling.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\appsettings.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.staticwebassets.endpoints.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.exe
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.deps.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.runtimeconfig.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.pdb
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.AssemblyInfo.cs
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.sourcelink.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\scopedcss\bundle\GlobaleExceptionHandeling.styles.css
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleE.4E8B4B2A.Up2Date
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\refint\GlobaleExceptionHandeling.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.pdb
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.genruntimeconfig.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Without logging and with Logging\GlobaleExceptionHandeling\GlobaleExceptionHandeling\obj\Debug\net8.0\ref\GlobaleExceptionHandeling.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\bin\Debug\net8.0\appsettings.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.staticwebassets.endpoints.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.exe
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.deps.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.runtimeconfig.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\bin\Debug\net8.0\GlobaleExceptionHandeling.pdb
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.AssemblyInfo.cs
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.sourcelink.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\scopedcss\bundle\GlobaleExceptionHandeling.styles.css
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleE.4E8B4B2A.Up2Date
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\refint\GlobaleExceptionHandeling.dll
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.pdb
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\GlobaleExceptionHandeling.genruntimeconfig.cache
+C:\Users\user\Desktop\ASP.Net Core Web API\Udemy\Logging and Exceptional Handling\logging and withoud logging\GlobaleExceptionHandeling\obj\Debug\net8.0\ref\GlobaleExceptionHandeling.dll

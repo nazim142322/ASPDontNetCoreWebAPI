@@ -1,0 +1,34 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "GlobaleExceptionHandeling",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Student": {
+      "get": {
+        "tags": [
+          "Student"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Student/GetAllStudents": {
+      "get": {
+        "tags": [
+          "Student"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
