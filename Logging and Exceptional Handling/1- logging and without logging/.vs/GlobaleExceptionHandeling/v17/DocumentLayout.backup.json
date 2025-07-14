@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Logging and Exceptional Handling\\logging and withoud logging\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\P4- Logging and Exceptional Handling\\1- logging and without logging\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D1164D3-0508-4DBB-9AF0-2A02C7543EC1}|GlobaleExceptionHandeling\\GlobaleExceptionHandeling.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\logging and exceptional handling\\logging and withoud logging\\globaleexceptionhandeling\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D1164D3-0508-4DBB-9AF0-2A02C7543EC1}|GlobaleExceptionHandeling\\GlobaleExceptionHandeling.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\p4- logging and exceptional handling\\1- logging and without logging\\globaleexceptionhandeling\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D1164D3-0508-4DBB-9AF0-2A02C7543EC1}|GlobaleExceptionHandeling\\GlobaleExceptionHandeling.csproj|solutionrelative:globaleexceptionhandeling\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Logging and Exceptional Handling\\logging and withoud logging\\GlobaleExceptionHandeling\\Controllers\\StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\P4- Logging and Exceptional Handling\\1- logging and without logging\\GlobaleExceptionHandeling\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "GlobaleExceptionHandeling\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Logging and Exceptional Handling\\logging and withoud logging\\GlobaleExceptionHandeling\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\P4- Logging and Exceptional Handling\\1- logging and without logging\\GlobaleExceptionHandeling\\Controllers\\StudentController.cs",
               "RelativeToolTip": "GlobaleExceptionHandeling\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAQwEEAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwEEAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-13T11:32:25.884Z",
               "EditorCaption": ""

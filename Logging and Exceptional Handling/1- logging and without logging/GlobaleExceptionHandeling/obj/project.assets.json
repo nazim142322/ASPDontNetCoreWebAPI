@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Logging and Exceptional Handling\\logging and withoud logging\\GlobaleExceptionHandeling\\GlobaleExceptionHandeling.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\P4- Logging and Exceptional Handling\\1- logging and without logging\\GlobaleExceptionHandeling\\GlobaleExceptionHandeling.csproj",
       "projectName": "GlobaleExceptionHandeling",
-      "projectPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Logging and Exceptional Handling\\logging and withoud logging\\GlobaleExceptionHandeling\\GlobaleExceptionHandeling.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\P4- Logging and Exceptional Handling\\1- logging and without logging\\GlobaleExceptionHandeling\\GlobaleExceptionHandeling.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\Logging and Exceptional Handling\\logging and withoud logging\\GlobaleExceptionHandeling\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\P4- Logging and Exceptional Handling\\1- logging and without logging\\GlobaleExceptionHandeling\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
