@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "Web_API_Versioning_API.V1.Controllers.CountriesController",
+    "Method": "GetCountriesV1",
+    "RelativePath": "api/v{version}/Countries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "apiversion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_API_Versioning_API.V1.Controllers.CountriesController",
+    "Method": "GetCountriesV2",
+    "RelativePath": "api/v{version}/Countries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "version",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "apiversion",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
