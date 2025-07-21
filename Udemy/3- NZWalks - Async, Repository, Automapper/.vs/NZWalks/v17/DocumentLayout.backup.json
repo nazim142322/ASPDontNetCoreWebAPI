@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "NZWalksAPI\\Controllers\\TestLoggingController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\3- NZWalks - Async, Repository, Automapper\\NZWalksAPI\\Controllers\\TestLoggingController.cs",
               "RelativeToolTip": "NZWalksAPI\\Controllers\\TestLoggingController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T16:59:18.431Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "NZWalksAPI\\Controllers\\RegionsController.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAowAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T16:49:33.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-20T16:49:33.967Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "NZWalksAPI\\Middlewares\\GlobalExcepHandlerMiddleware\\ExceptionHandleMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T17:00:06.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T17:00:06.23Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "NZWalksAPI\\Program.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAAAAAHkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T16:09:36.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-12T16:09:36.444Z"
             }
           ]
         }

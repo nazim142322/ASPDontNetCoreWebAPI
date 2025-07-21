@@ -68,8 +68,8 @@ namespace NZWalksAPI.Controllers
         //Get: https://localhost:7050/api/regions/{id}
         [HttpGet]
         [Route("{id:Guid}")]
-        [Authorize(Roles = "Reader")]
-        public async Task<IActionResult> GetById(Guid id)
+        //[Authorize(Roles = "Reader")]
+        public async Task<IActionResult> GetById([FromRoute] Guid id)
         {
             //Get Region Domain Model from database
             var regionDomain = await _regionRepository.GetByIdAsync(id);           
