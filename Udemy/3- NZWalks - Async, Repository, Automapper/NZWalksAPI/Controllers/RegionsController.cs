@@ -98,7 +98,7 @@ namespace NZWalksAPI.Controllers
         //POST: https://locathost:7050/api/regions
         [HttpPost]
         [ValidateModel]
-        [Authorize(Roles = "Writer")]
+        //[Authorize(Roles = "Writer")]
         public async Task<IActionResult> Create([FromBody] AddRegionRequestDTO addregiondto)
         {
             if (addregiondto == null)

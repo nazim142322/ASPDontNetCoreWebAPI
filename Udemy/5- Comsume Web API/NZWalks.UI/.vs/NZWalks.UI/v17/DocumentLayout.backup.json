@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{39B77170-653D-489D-BAEB-65EDBBDBA87C}|NZWalks.UI\\NZWalks.UI.csproj|solutionrelative:nzwalks.ui\\controllers\\regionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{39B77170-653D-489D-BAEB-65EDBBDBA87C}|NZWalks.UI\\NZWalks.UI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\5- comsume web api\\nzwalks.ui\\nzwalks.ui\\views\\regions\\get_regions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{39B77170-653D-489D-BAEB-65EDBBDBA87C}|NZWalks.UI\\NZWalks.UI.csproj|solutionrelative:nzwalks.ui\\views\\regions\\get_regions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{39B77170-653D-489D-BAEB-65EDBBDBA87C}|NZWalks.UI\\NZWalks.UI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\5- comsume web api\\nzwalks.ui\\nzwalks.ui\\views\\regions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{39B77170-653D-489D-BAEB-65EDBBDBA87C}|NZWalks.UI\\NZWalks.UI.csproj|solutionrelative:nzwalks.ui\\views\\regions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B77170-653D-489D-BAEB-65EDBBDBA87C}|NZWalks.UI\\NZWalks.UI.csproj|c:\\users\\user\\desktop\\asp.net core web api\\udemy\\5- comsume web api\\nzwalks.ui\\nzwalks.ui\\models\\dto\\addregionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B77170-653D-489D-BAEB-65EDBBDBA87C}|NZWalks.UI\\NZWalks.UI.csproj|solutionrelative:nzwalks.ui\\models\\dto\\addregionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\5- Comsume Web API\\NZWalks.UI\\NZWalks.UI\\Views\\Regions\\Create.cshtml",
+              "RelativeDocumentMoniker": "NZWalks.UI\\Views\\Regions\\Create.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\5- Comsume Web API\\NZWalks.UI\\NZWalks.UI\\Views\\Regions\\Create.cshtml",
+              "RelativeToolTip": "NZWalks.UI\\Views\\Regions\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T16:22:02.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddRegionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\5- Comsume Web API\\NZWalks.UI\\NZWalks.UI\\Models\\DTO\\AddRegionViewModel.cs",
+              "RelativeDocumentMoniker": "NZWalks.UI\\Models\\DTO\\AddRegionViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\5- Comsume Web API\\NZWalks.UI\\NZWalks.UI\\Models\\DTO\\AddRegionViewModel.cs",
+              "RelativeToolTip": "NZWalks.UI\\Models\\DTO\\AddRegionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T16:19:15.817Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,22 +58,9 @@
               "RelativeDocumentMoniker": "NZWalks.UI\\Controllers\\RegionsController.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\5- Comsume Web API\\NZWalks.UI\\NZWalks.UI\\Controllers\\RegionsController.cs",
               "RelativeToolTip": "NZWalks.UI\\Controllers\\RegionsController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAkwA0AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T16:36:39.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Get_Regions.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\5- Comsume Web API\\NZWalks.UI\\NZWalks.UI\\Views\\Regions\\Get_Regions.cshtml",
-              "RelativeDocumentMoniker": "NZWalks.UI\\Views\\Regions\\Get_Regions.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\ASP.Net Core Web API\\Udemy\\5- Comsume Web API\\NZWalks.UI\\NZWalks.UI\\Views\\Regions\\Get_Regions.cshtml",
-              "RelativeToolTip": "NZWalks.UI\\Views\\Regions\\Get_Regions.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-21T16:53:30.973Z",
               "EditorCaption": ""
             }
           ]

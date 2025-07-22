@@ -13,6 +13,7 @@ namespace NZWalks.UI.Controllers
         }
         private string apiBaseUrl = "https://localhost:7050/api/Regions";
 
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             var _httpClient = httpClientFactory.CreateClient();
@@ -31,22 +32,25 @@ namespace NZWalks.UI.Controllers
             return View(regions); //in case no data then blank list will be returned
         }
 
+
+        //get method to get regions with try catch block and using ReadFromJsonAsync
+        [HttpGet("GetRegions")]
         public async Task<IActionResult> Get_Regions()
         {
             var regions = new List<RegionDTO>();
 
             try
             {
-                var client = httpClientFactory.CreateClient();
-                var response = await client.GetAsync(apiBaseUrl);
+                var _client = httpClientFactory.CreateClient();
+                HttpResponseMessage response = await _client.GetAsync(apiBaseUrl);
 
                 if (response.IsSuccessStatusCode)
                 {
-                    var content = await response.Content.ReadAsStringAsync();
-                    var data = JsonConvert.DeserializeObject<List<RegionDTO>>(content);
-                    if (data is not null)
+                    var regionsData = await response.Content.ReadFromJsonAsync<List<RegionDTO>>();
+                    
+                    if (regionsData is not null)
                     {
-                        regions = data;
+                        regions = regionsData;
                     }
                 }
                 else
@@ -61,7 +65,38 @@ namespace NZWalks.UI.Controllers
             return View(regions);
         }
 
+        
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
 
+       
+        [HttpPost]
+        public async Task<IActionResult> Create(AddRegionViewModel region)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(region);
+            }
+            var _httpClient = httpClientFactory.CreateClient();
+            HttpResponseMessage response = await _httpClient.PostAsJsonAsync(apiBaseUrl, region);
+            if (response.IsSuccessStatusCode)
+            {
+                TempData["Success"] = "Region created successfully.";
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                TempData["Error"] = "Failed to create region. Status: " + response.StatusCode;
+                return View(region);
+            }
+        }
+    
+    
+    
+    
     }
 
 
