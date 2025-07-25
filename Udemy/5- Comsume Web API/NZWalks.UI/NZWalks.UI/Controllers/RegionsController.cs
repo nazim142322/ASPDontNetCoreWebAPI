@@ -7,9 +7,11 @@ namespace NZWalks.UI.Controllers
     public class RegionsController : Controller
     {
         private readonly IHttpClientFactory httpClientFactory;
-        public RegionsController(IHttpClientFactory httpClientFactory)
+        private readonly ILogger<RegionsController> _logger;
+        public RegionsController(IHttpClientFactory httpClientFactory, ILogger<RegionsController> logger)
         {
             this.httpClientFactory = httpClientFactory;
+            _logger = logger;
         }
         private string apiBaseUrl = "https://localhost:7050/api/Regions";
 
@@ -82,32 +84,57 @@ namespace NZWalks.UI.Controllers
             {
                 return View(region);
             }
-            var _httpClient = httpClientFactory.CreateClient();
 
-            var httpRequestMessage = new HttpRequestMessage()
+            try
             {
-                Method = HttpMethod.Post,
-                RequestUri = new Uri(apiBaseUrl),
-                Content = new StringContent(JsonConvert.SerializeObject(region), System.Text.Encoding.UTF8, "application/json")
-            };
-            HttpResponseMessage response = await _httpClient.SendAsync(httpRequestMessage);
-            
-           if (response.IsSuccessStatusCode)
-            {
-                var data = await response.Content.ReadFromJsonAsync<RegionDTO>();
-                TempData["Success"] = "Region created successfully:" + response.StatusCode;
-                return RedirectToAction("Index");
+                var _httpClient = httpClientFactory.CreateClient();
+
+                var httpRequestMessage = new HttpRequestMessage()
+                {
+                    Method = HttpMethod.Post,
+                    RequestUri = new Uri(apiBaseUrl),
+                    Content = new StringContent(JsonConvert.SerializeObject(region), System.Text.Encoding.UTF8,
+                        "application/json"
+                    )
+                };
+
+                HttpResponseMessage response = await _httpClient.SendAsync(httpRequestMessage);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    //getting content from the API response
+                    var data = await response.Content.ReadFromJsonAsync<RegionDTO>();
+                    TempData["Success"] = "Region created successfully. Status: " + response.StatusCode;
+                    //return RedirectToAction("Index");
+                    return View();
+                }
+                else
+                {
+
+                    // 👇 getting error content from API response
+                    string errorContent = await response.Content.ReadAsStringAsync();
+
+                    // Log the error details
+                    _logger.LogError($"Failed to Create Region. Status :{response.StatusCode} and Reason:{errorContent}");
+
+                    TempData["Error"] = "Failed to create region. Status: " + response.StatusCode +
+                                        ". Reason: " + errorContent;
+                    return View(region);
+                }
             }
-            else
+            catch (Exception ex)
             {
-                TempData["Error"] = "Failed to create region. Status: " + response.StatusCode;
+                // Log the exception details
+                _logger.LogError($"An error occurred while creating the region: {ex.Message}");
+
+                TempData["Error"] = "An error occurred while creating the region: " + ex.Message;
                 return View(region);
             }
         }
-
-    } 
+    
+    }
 }
-
+//PostAsJsonAsync, PostAsync and SendAsync
 //public async Task<IActionResult> Create(AddRegionViewModel region)
 //{
 //    if (!ModelState.IsValid)
@@ -116,6 +143,8 @@ namespace NZWalks.UI.Controllers
 //    }
 //    var _httpClient = httpClientFactory.CreateClient();
 //    HttpResponseMessage response = await _httpClient.PostAsJsonAsync(apiBaseUrl, region);
+//    or
+//    var response = await _httpClient.PostAsJsonAsync(apiBaseUrl, region);
 //    if (response.IsSuccessStatusCode)
 //    {
 //        TempData["Success"] = "Region created successfully.";
