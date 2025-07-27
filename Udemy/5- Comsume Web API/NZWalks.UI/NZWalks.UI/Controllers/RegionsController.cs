@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NZWalks.UI.Models.DTO;
 using Newtonsoft.Json;
+using System.Threading.Tasks;
 
 namespace NZWalks.UI.Controllers
 {
@@ -13,7 +14,7 @@ namespace NZWalks.UI.Controllers
             this.httpClientFactory = httpClientFactory;
             _logger = logger;
         }
-        private string apiBaseUrl = "https://localhost:7050/api/Regions";
+        private string apiBaseUrl = "https://localhost:7050/api/Regions/";
 
         [HttpGet]
         public async Task<IActionResult> Index()
@@ -36,7 +37,7 @@ namespace NZWalks.UI.Controllers
 
 
         //get method to get regions with try catch block and using ReadFromJsonAsync
-        //[HttpGet("GetRegions")]
+        //[HttpGet("GetRegions")] //hide controller and method name
         //[HttpGet]
         [HttpGet, ActionName("Get_Regions")]
         public async Task<IActionResult> GetAll()
@@ -69,13 +70,12 @@ namespace NZWalks.UI.Controllers
             return View(regions);
         }
 
-
+        //for creating a record POST Request
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
-
 
         [HttpPost]
         public async Task<IActionResult> Create(AddRegionViewModel region)
@@ -131,7 +131,80 @@ namespace NZWalks.UI.Controllers
                 return View(region);
             }
         }
-    
+
+
+        //for updating record PUT Request
+        //1 approach
+        [HttpGet]
+        public async Task<IActionResult> Edit(Guid id)
+        {
+            // 1. Basic validation
+            if (id == Guid.Empty)
+            {
+                TempData["Error"] = "Invalid region ID.";
+                return RedirectToAction("Index");
+            }
+
+            // 2. Prepare model and HttpClient
+            RegionDTO region = new RegionDTO();
+            var _httpClient = httpClientFactory.CreateClient();
+
+            try
+            {
+                // 3. Call API to get region by ID
+                var response = await _httpClient.GetAsync(apiBaseUrl + id);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    // ✅ 4. Deserialize response
+                    var regionData = await response.Content.ReadFromJsonAsync<RegionDTO>();
+                    if (regionData != null)
+                    {
+                        region = regionData;
+                    }
+                    return View(region);
+
+                }
+                else
+                {
+                    // 👇 Handle API error response
+                    string errorContent = await response.Content.ReadAsStringAsync();
+                    _logger.LogError($"Failed to load region. Status: {response.StatusCode}, Reason: {errorContent}");
+
+                    TempData["Error"] = "Failed to load region. Status: " + response.StatusCode;
+                    return RedirectToAction("Index");
+                }
+            }
+            catch (Exception ex)
+            {
+                //add logger
+                _logger.LogError($"An error occurred while fetching the region: {ex.Message}");
+
+                //5. Handle network or unexpected errors
+                TempData["Error"] = "An error occurred: " + ex.Message;
+                return RedirectToAction("Index");
+            }            
+        }
+
+        //2nd approach
+        [HttpGet]
+        public async Task<IActionResult> Update(Guid id)
+        {
+            if (id == Guid.Empty)
+            {
+                TempData["Error"] = "Invalid region ID.";
+                return RedirectToAction("Index");
+            }           
+            var client = httpClientFactory.CreateClient();
+            var response = await client.GetFromJsonAsync<RegionDTO>($"https://localhost:7050/api/Regions/{id}");
+            if (response is not null)
+            {                
+                return View(response);
+            }
+            return View(null);
+        }
+
+
     }
 }
 //PostAsJsonAsync, PostAsync and SendAsync
@@ -156,3 +229,5 @@ namespace NZWalks.UI.Controllers
 //        return View(region);
 //    }
 //}
+
+//GetAsync and GetFromJsonAsync<RegionDto>($"URL/{id}")

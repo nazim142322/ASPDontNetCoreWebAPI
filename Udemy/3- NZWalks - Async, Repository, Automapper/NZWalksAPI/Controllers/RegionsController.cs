@@ -126,7 +126,7 @@ namespace NZWalksAPI.Controllers
         //PUT: https://localhost:7050/api/regions/{id}
         [HttpPut("{id:Guid}")]
         [ValidateModel]
-        [Authorize(Roles ="Writer")]
+        //[Authorize(Roles ="Writer")]
         public async Task<IActionResult> Update([FromRoute] Guid id, [FromBody] UpdateRegionRequestDTO updateRegiondto)
         {
             if (updateRegiondto == null)

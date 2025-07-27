@@ -40,12 +40,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/user/Desktop/ASP.Net Core Web API/Udemy/5- Comsume Web API/NZWalks.UI/NZWalks.UI/Views/Regions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/user/Desktop/ASP.Net Core Web API/Udemy/5- Comsume Web API/NZWalks.UI/NZWalks.UI/Views/Regions/Get_Regions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xHZXRfUmVnaW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Desktop/ASP.Net Core Web API/Udemy/5- Comsume Web API/NZWalks.UI/NZWalks.UI/Views/Regions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/user/Desktop/ASP.Net Core Web API/Udemy/5- Comsume Web API/NZWalks.UI/NZWalks.UI/Views/Regions/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uc1xVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/user/Desktop/ASP.Net Core Web API/Udemy/5- Comsume Web API/NZWalks.UI/NZWalks.UI/Views/Shared/Error.cshtml]

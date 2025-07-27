@@ -37,14 +37,13 @@ namespace NZWalksAPI.Repositories
             var existingRegion = await _dbContext.Regions.FirstOrDefaultAsync(r =>r.Id== id);
             if(existingRegion == null)
             {
-                return null; // or throw an exception
+                return null; //or throw an exception
             }
             existingRegion.Name = region.Name;
             existingRegion.Code = region.Code;
             existingRegion.RegionImageUrl = region.RegionImageUrl;  
             await _dbContext.SaveChangesAsync();
             return existingRegion;        
-               
         }
 
         public async Task<Region?> DeleteAsync(Guid id)
