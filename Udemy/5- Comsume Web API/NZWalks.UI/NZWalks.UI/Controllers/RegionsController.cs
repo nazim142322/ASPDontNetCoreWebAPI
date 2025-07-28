@@ -134,7 +134,7 @@ namespace NZWalks.UI.Controllers
 
 
         //for updating record PUT Request
-        //1 approach
+        //1 approach GetAsync and ReadFromJsonAsync
         [HttpGet]
         public async Task<IActionResult> Edit(Guid id)
         {
@@ -146,7 +146,7 @@ namespace NZWalks.UI.Controllers
             }
 
             // 2. Prepare model and HttpClient
-            RegionDTO region = new RegionDTO();
+            //RegionDTO region = new RegionDTO();
             var _httpClient = httpClientFactory.CreateClient();
 
             try
@@ -160,9 +160,11 @@ namespace NZWalks.UI.Controllers
                     var regionData = await response.Content.ReadFromJsonAsync<RegionDTO>();
                     if (regionData != null)
                     {
-                        region = regionData;
+                        //region = regionData;
+                        //return View(RegionDTO)
+                        return View(regionData);
                     }
-                    return View(region);
+                    return View(null);
 
                 }
                 else
@@ -186,7 +188,7 @@ namespace NZWalks.UI.Controllers
             }            
         }
 
-        //2nd approach
+        //2nd approach GetFromJsonAsync
         [HttpGet]
         public async Task<IActionResult> Update(Guid id)
         {
@@ -204,30 +206,51 @@ namespace NZWalks.UI.Controllers
             return View(null);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Edit(Guid id, AddRegionViewModel region)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(region);
+            }
+            try
+            {
+                var _httpClient = httpClientFactory.CreateClient();
+                var httpRequestMessage = new HttpRequestMessage()
+                {
+                    Method = HttpMethod.Put,
+                    RequestUri = new Uri(apiBaseUrl + id),
+                    Content = new StringContent(JsonConvert.SerializeObject(region), System.Text.Encoding.UTF8,
+                        "application/json"
+                    )
+                };
+                HttpResponseMessage response = await _httpClient.SendAsync(httpRequestMessage);
+                if (response.IsSuccessStatusCode)
+                {
+                    //getting content from the API response/ update record
+                    var responseData = await response.Content.ReadFromJsonAsync<RegionDTO>();
+                    TempData["Success"] = "Region updated successfully. Status: " + response.StatusCode;
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    string errorContent = await response.Content.ReadAsStringAsync();
+                    // Log the error details
+                    _logger.LogError($"Failed to update region. Status: {response.StatusCode}, Reason: {errorContent}");
+                    TempData["Error"] = "Failed to update region. Status: " + response.StatusCode +
+                                        ". Reason: " + errorContent;
+                    return View(region);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"An error occurred while updating the region: {ex.Message}");
+                TempData["Error"] = "An error occurred while updating the region: " + ex.Message;
+                return View(region);
+            }
+        }
+
+
 
     }
 }
-//PostAsJsonAsync, PostAsync and SendAsync
-//public async Task<IActionResult> Create(AddRegionViewModel region)
-//{
-//    if (!ModelState.IsValid)
-//    {
-//        return View(region);
-//    }
-//    var _httpClient = httpClientFactory.CreateClient();
-//    HttpResponseMessage response = await _httpClient.PostAsJsonAsync(apiBaseUrl, region);
-//    or
-//    var response = await _httpClient.PostAsJsonAsync(apiBaseUrl, region);
-//    if (response.IsSuccessStatusCode)
-//    {
-//        TempData["Success"] = "Region created successfully.";
-//        return RedirectToAction("Index");
-//    }
-//    else
-//    {
-//        TempData["Error"] = "Failed to create region. Status: " + response.StatusCode;
-//        return View(region);
-//    }
-//}
-
-//GetAsync and GetFromJsonAsync<RegionDto>($"URL/{id}")

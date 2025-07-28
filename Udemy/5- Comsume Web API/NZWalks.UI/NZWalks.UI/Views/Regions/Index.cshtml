@@ -5,7 +5,20 @@
 }
 
 <h1>Index</h1>
-
+@{
+    if(TempData["Success"] is not null)
+    {
+        <div class="alert alert-success">
+            @TempData["Success"]
+        </div>
+    }
+    if(TempData["Error"] is not null)
+    {
+        <div class="alert alert-danger">
+            @TempData["Error"]
+        </div>
+    }
+}
 <p>
     <a asp-controller="Regions" asp-action="Create" class="btn btn-secondary btn-sm">Create New</a>
 </p>
