@@ -185,7 +185,7 @@ namespace NZWalks.UI.Controllers
                 //5. Handle network or unexpected errors
                 TempData["Error"] = "An error occurred: " + ex.Message;
                 return RedirectToAction("Index");
-            }            
+            }
         }
 
         //2nd approach GetFromJsonAsync
@@ -196,11 +196,11 @@ namespace NZWalks.UI.Controllers
             {
                 TempData["Error"] = "Invalid region ID.";
                 return RedirectToAction("Index");
-            }           
+            }
             var client = httpClientFactory.CreateClient();
             var response = await client.GetFromJsonAsync<RegionDTO>($"https://localhost:7050/api/Regions/{id}");
             if (response is not null)
-            {                
+            {
                 return View(response);
             }
             return View(null);
@@ -251,6 +251,45 @@ namespace NZWalks.UI.Controllers
         }
 
 
+        //for deleting record DELETE Request
+        [HttpGet]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            if (id == Guid.Empty)
+            {
+                TempData["Error"] = "Invalid region ID.";
+                return RedirectToAction("Index");
+            }
+            var _httpClient = httpClientFactory.CreateClient();
+            try
+            {
+                HttpResponseMessage response = await _httpClient.DeleteAsync(apiBaseUrl + id);
+                if (response.IsSuccessStatusCode)
+                {
+                    //var responseData = await response.Content.ReadAsStringAsync();
+                    //TempData["Success"] = "Region deleted successfully. Status: " + response.StatusCode + responseData;
+                    var responseData = await response.Content.ReadFromJsonAsync<RegionDTO>();
+                    TempData["Success"] = "Region deleted successfully. Status: " + response.StatusCode + " Id: "+ responseData.Id;
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    string errorContent = await response.Content.ReadAsStringAsync();
+                    _logger.LogError($"Failed to delete region. Status: {response.StatusCode}, Reason: {errorContent}");
+                    TempData["Error"] = "Failed to delete region. Status: " + response.StatusCode +
+                                        ". Reason: " + errorContent;
+                    return RedirectToAction("Index");
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"An error occurred while deleting the region: {ex.Message}");
+                TempData["Error"] = "An error occurred while deleting the region: " + ex.Message;
+                return RedirectToAction("Index");
+            }
 
+
+
+        }
     }
 }

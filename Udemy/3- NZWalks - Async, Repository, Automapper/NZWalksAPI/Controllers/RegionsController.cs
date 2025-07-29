@@ -157,7 +157,7 @@ namespace NZWalksAPI.Controllers
         //Delete region
         [HttpDelete]
         [Route("{id:Guid}")]
-        [Authorize(Roles = "Writer ,Reader")]
+        //[Authorize(Roles = "Writer ,Reader")]
         public async Task<IActionResult> Delete([FromRoute]Guid id)
         {
             //calling repository to delete region
